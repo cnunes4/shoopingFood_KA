@@ -10,6 +10,7 @@ This README provides step-by-step instructions for setting up and running an MVC
 
 Prerequisites
 Before you begin, ensure that your development environment meets the following requirements:
+
 .NET SDK: Version 6.0 or higher. 
 Visual Studio 2022 (or higher) with ASP.NET and web development workloads installed.
 MY SQL Server
