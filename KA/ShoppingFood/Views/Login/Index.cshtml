@@ -1,0 +1,30 @@
+﻿@model User
+@{
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+    ViewData["Title"] = "Login";
+}
+
+
+<form class="login100-form validate-form" asp-action="Login" method="post">
+    <div class="login100-form-title">
+        Login
+    </div>
+
+    <div class="wrap-input100 validate-input m-b-20" data-validate="Type user name">
+        <input id="first-name" type="text" name="Username" placeholder="Name" required>
+    </div>
+    <div class="wrap-input100 validate-input m-b-20" data-validate="Type password">
+        <input class="input100" type="password" name="Password" placeholder="Password" required>
+    </div>
+    <div>
+        @if (ViewData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @ViewData["ErrorMessage"]
+            </div>
+        }
+    </div>
+    <div class="container-login100-form-btn">
+        <button type="submit" class="btn btn-primary">Login</button>
+    </div>
+</form>

@@ -1,0 +1,6 @@
+@KA.Api1_HostAddress = http://localhost:5019
+
+GET {{KA.Api1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

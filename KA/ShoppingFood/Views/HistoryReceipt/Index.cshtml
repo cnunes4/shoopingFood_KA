@@ -1,0 +1,41 @@
+﻿@model ListOfReceipts
+
+@{
+    ViewData["Title"] = "History Of Receipts";
+}
+
+<div class="container">
+    <h2>Receipts</h2>
+     @if (Model != null && Model.Receipts.Count > 0)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Total Price</th>
+                    <th>Discount</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var receipt in Model.Receipts)
+                {
+                    <tr>
+                        <td>@receipt.ReceiptDate.ToString("yyyy-MM-dd HH:mm")</td>  <!-- Display Date in YYYY-MM-DD format -->
+                            <td><span id="totalPrice">@receipt.TotalAfterDiscount.ToString("0.00")</span>  €</td>
+                            <td><span id="totalPrice">@receipt.TotalDiscount.ToString("0.00")</span> €</td>
+                            <td class="btnViewDetails">
+                                <a class="btn btn-primary" href="@Url.Action("GetDetails", "HistoryReceipt", new { receiptId = receipt.Id })">View Details</a>
+                            </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No items found.</p>
+    }
+</div>
+
+

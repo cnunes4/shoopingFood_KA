@@ -1,0 +1,47 @@
+﻿@model Receipt
+
+@{
+    ViewData["Title"] = "Grocery Receipt";
+}
+
+<div class="container receiptBody">
+    <h2 class="my-4">Grocery Receipt</h2>
+    <div class="receipt-header">
+        <span>Date: @Model.ReceiptDate.ToString("yyyy-MM-dd HH:mm")</span>
+    </div>
+    <div>
+        @if (Model != null && Model.Items.Count > 0)
+        {
+            foreach (var item in Model.Items)
+            {
+                <div class="item-name">
+                    <div class="row">
+                        <div class="col-6">@item.Name</div> <div class="col-6"><span class="bold">@item.PriceAfterDiscount.ToString("0.00") €</span></div>
+                    </div>
+                        <div class="row details">
+                        <div class="col-6">@item.Price.ToString("0.00") x @item.Quantity</div><div class="col-6">@item.PriceBeforeDiscount.ToString("0.00") €</div>
+                            @if (item.TotalDiscount != 0m)
+                            {
+                                <div class="col-6">Discount</div>
+
+                                <div class="col-6">@item.TotalDiscount.ToString("0.00") €</div>
+                            }
+                        </div>
+                    </div>
+            }
+        }
+    </div>
+
+    <div class="receipt-footer">
+        <div class="total">
+            <div class="totalToPay">
+                Total to Pay: @Model.TotalAfterDiscount.ToString("0.00")€
+            </div> 
+            You Saved: <span class="totaSave">@Model.TotalDiscount.ToString("0.00")</span> €
+        </div>
+    </div>
+
+    <a class="btn btn-primary" href="@Url.Action("Index", "Food")">Back to Home</a>
+</div>
+
+

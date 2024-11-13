@@ -1,0 +1,63 @@
+﻿@model ListOfFood
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    
+    <h2 class="my-4">Food Items</h2>
+
+
+  
+
+
+<div class="promotions">
+    <h5>Promotions</h5>
+    <ul class="list-group">
+        @foreach (var promo in Model.Promotions) 
+        {
+            <li class="list-group-item">@promo.Description</li>
+        }
+    </ul>
+</div>
+
+     @if (Model != null && Model.FoodAvailable.Count > 0)
+    {
+        <form method="post" action="@Url.Action("SubmitOrder", "Food")">
+            <div class="row">
+                @foreach (var item in Model.FoodAvailable)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">@item.Name</h5>
+                                <p class="card-text">Price: @item.Price.ToString("0.00") €</p>
+
+                                <!-- Discount Section -->
+                                @if(item.Discounts != null){
+                                    foreach (var discount in item.Discounts)
+                                    {
+                                        <p class="text-success">Discount: @discount.Percentage %</p>
+                                    }
+                                }
+                                <div class="form-group">
+                                    <label for="quantity_@item.Id">Quantity</label>
+                                    <input type="number" id="quantity_@item.Id" name="Quantities[@item.Id]" class="form-control" value="0" min="0">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-4">Submit Order</button>
+        </form>
+    }
+    else
+    {
+        <p>No items found.</p>
+    }
+</div>
+
+

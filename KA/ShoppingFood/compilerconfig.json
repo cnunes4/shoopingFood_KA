@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/_loginPage.css",
+    "inputFile": "wwwroot/css/_loginPage.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/_menu.css",
+    "inputFile": "wwwroot/css/_menu.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/_receipt.css",
+    "inputFile": "wwwroot/css/_receipt.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/_shoopingFood.css",
+    "inputFile": "wwwroot/css/_shoopingFood.scss"
+  }
+]

@@ -1,0 +1,53 @@
+﻿.welcomeUser {
+  margin-bottom: 40px;
+  float: right;
+  width: 100%;
+  text-align: right;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-brand {
+  color: black;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navbar .navbar-toggler {
+  border-color: transparent;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-color: #000;
+}
+.navbar .nav-item {
+  margin-left: 15px;
+}
+.navbar .nav-item .nav-link {
+  color: #333;
+  font-size: 16px;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #007bff;
+}
+.navbar .nav-item button[type=submit] {
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  margin-top: 6px;
+  font-weight: bold;
+  color: black;
+}
+.navbar .nav-item button[type=submit]:hover {
+  color: #0056b3;
+}
