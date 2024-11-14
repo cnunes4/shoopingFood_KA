@@ -21,7 +21,10 @@ namespace KA.Api1.Controllers
             _logger = logger;
             _promotionService = promotionService;
         }
-
+        /// <summary>
+        /// Get All products and promotions
+        /// </summary>
+        /// <returns>List of products and promotions</returns>
         [HttpGet("GetAllProducts")]
         [Authorize]
         public async Task<ActionResult<ListOfFood>> GetAllProducts()

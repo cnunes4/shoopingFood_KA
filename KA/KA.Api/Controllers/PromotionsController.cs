@@ -19,6 +19,10 @@ namespace KA.Api1.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Get all promotions 
+        /// </summary>
+        /// <returns>List of promotions</returns>
         [HttpGet("GetAllPromotions")]
         [Authorize]
         public async Task<ActionResult<ListOfPromotions>> GetAllPromotions()
@@ -29,7 +33,7 @@ namespace KA.Api1.Controllers
 
                 if (!result.Any())
                 {
-                     return NotFound("No Products");
+                     return NotFound("No Promotions");
                 }
 
                 return Ok(new ListOfPromotions(){

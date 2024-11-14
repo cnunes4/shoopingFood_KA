@@ -25,6 +25,11 @@ namespace KA.Api1.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Generate a receipt with all information regarding reeipt and produts that user bought
+        /// </summary>
+        /// <param name="orderReceive">List for each product the quantity</param>
+        /// <returns>All details regardin the receipt</returns>
         [HttpPost("generate-receipt")]
         [Authorize]
         public async Task<IActionResult> GenerateReceipt([FromBody] ListOrderItem orderReceive)

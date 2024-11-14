@@ -36,3 +36,4 @@ C:\CarlaNunes\GitHubKa\KA\KA.Ioc\obj\Debug\net8.0\KA.Ioc.dll
 C:\CarlaNunes\GitHubKa\KA\KA.Ioc\obj\Debug\net8.0\refint\KA.Ioc.dll
 C:\CarlaNunes\GitHubKa\KA\KA.Ioc\obj\Debug\net8.0\KA.Ioc.pdb
 C:\CarlaNunes\GitHubKa\KA\KA.Ioc\obj\Debug\net8.0\ref\KA.Ioc.dll
+C:\CarlaNunes\GitHubKa\KA\KA.Ioc\obj\Debug\net8.0\KA.Ioc.sourcelink.json

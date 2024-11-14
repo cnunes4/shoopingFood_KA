@@ -6,7 +6,11 @@ namespace KA.Application.Services
 {
     public class AuthenticatedService : IAuthenticatedService
     {
-
+        /// <summary>
+        /// Convert a pasword in a hash
+        /// </summary>
+        /// <param name="password">password</param>
+        /// <returns>password encripted</returns>
         public string HashPassword(string password)
         {
             byte[] salt = GenerateSalt();
@@ -22,11 +26,21 @@ namespace KA.Application.Services
             return $"{Convert.ToBase64String(salt)}${hashedPassword}";
         }
 
+        /// <summary>
+        /// Validate if password inserted by user is same as password in BD
+        /// </summary>
+        /// <param name="enteredPassword"></param>
+        /// <param name="storedPassword"></param>
+        /// <returns></returns>
         public bool ValidatePassword(string enteredPassword, string storedPassword)
         {
             return storedPassword == enteredPassword;
         }
 
+        /// <summary>
+        /// Generate a Salt to create a hash
+        /// </summary>
+        /// <returns></returns>
         private byte[] GenerateSalt()
         {
             var salt = new byte[128 / 8]; // 128 bit salt

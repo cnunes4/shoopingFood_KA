@@ -36,3 +36,4 @@ C:\CarlaNunes\GitHubKa\KA\KA.Infra.Data\obj\Debug\net8.0\refint\KA.Infra.Data.dl
 C:\CarlaNunes\GitHubKa\KA\KA.Infra.Data\obj\Debug\net8.0\KA.Infra.Data.pdb
 C:\CarlaNunes\GitHubKa\KA\KA.Infra.Data\obj\Debug\net8.0\KA.Infra.Data.genruntimeconfig.cache
 C:\CarlaNunes\GitHubKa\KA\KA.Infra.Data\obj\Debug\net8.0\ref\KA.Infra.Data.dll
+C:\CarlaNunes\GitHubKa\KA\KA.Infra.Data\obj\Debug\net8.0\KA.Infra.Data.sourcelink.json

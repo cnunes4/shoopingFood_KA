@@ -13,6 +13,7 @@ namespace KA.Ioc
     {
         public static IServiceCollection AddInfrastructureSwagger(this IServiceCollection services, IConfiguration configuration)
         {
+            //Configurations for swagger
             services.AddSwaggerGen(c =>
             {
                 c.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme()
@@ -55,7 +56,7 @@ namespace KA.Ioc
         {
             if (env.IsDevelopment())
             {
-                app.UseSwagger(); // Enable middleware to serve generated Swagger as a JSON endpoint
+                app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API v1"));
             }
             return app;

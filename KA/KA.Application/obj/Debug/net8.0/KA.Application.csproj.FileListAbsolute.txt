@@ -28,3 +28,4 @@ C:\CarlaNunes\GitHubKa\KA\KA.Application\obj\Debug\net8.0\KA.Application.dll
 C:\CarlaNunes\GitHubKa\KA\KA.Application\obj\Debug\net8.0\refint\KA.Application.dll
 C:\CarlaNunes\GitHubKa\KA\KA.Application\obj\Debug\net8.0\KA.Application.pdb
 C:\CarlaNunes\GitHubKa\KA\KA.Application\obj\Debug\net8.0\ref\KA.Application.dll
+C:\CarlaNunes\GitHubKa\KA\KA.Application\obj\Debug\net8.0\KA.Application.sourcelink.json

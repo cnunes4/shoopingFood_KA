@@ -12,7 +12,11 @@ namespace KA.Infra.Data.Repositories
         {
             _context = context;
         }
-
+        /// <summary>
+        /// Get user by username
+        /// </summary>
+        /// <param name="username">Username</param>
+        /// <returns>User if exist</returns>
         public async Task<User?> GetUserAsync(string username)
         {
             return await _context.Users.FirstOrDefaultAsync(u => u.Username == username);

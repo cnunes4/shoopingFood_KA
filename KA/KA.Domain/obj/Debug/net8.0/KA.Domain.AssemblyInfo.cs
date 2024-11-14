@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KA.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea36c1d9d735d7f9942d03854c40d6e815e2a013")]
 [assembly: System.Reflection.AssemblyProductAttribute("KA.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KA.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

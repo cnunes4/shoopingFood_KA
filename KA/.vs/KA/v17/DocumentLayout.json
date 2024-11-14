@@ -3,20 +3,144 @@
   "WorkspaceRootPath": "C:\\CarlaNunes\\GitHubKa\\KA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|c:\\carlanunes\\githubka\\ka\\ka.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|solutionrelative:ka.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A5D37796-E1D5-4D21-BA56-D1277EC4FFA5}|KA.TestApplication\\KA.TestApplication.csproj|c:\\carlanunes\\githubka\\ka\\ka.testapplication\\receiveservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5D37796-E1D5-4D21-BA56-D1277EC4FFA5}|KA.TestApplication\\KA.TestApplication.csproj|solutionrelative:ka.testapplication\\receiveservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\repositories\\receiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\repositories\\receiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\repositories\\promotionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\repositories\\promotionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\repositories\\discountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\repositories\\discountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|c:\\carlanunes\\githubka\\ka\\ka.api\\common\\authenticatedhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|solutionrelative:ka.api\\common\\authenticatedhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|c:\\carlanunes\\githubka\\ka\\ka.api\\controllers\\receivecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|solutionrelative:ka.api\\controllers\\receivecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|c:\\carlanunes\\githubka\\ka\\ka.api\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|solutionrelative:ka.api\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|c:\\carlanunes\\githubka\\ka\\ka.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|solutionrelative:ka.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|c:\\carlanunes\\githubka\\ka\\ka.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|solutionrelative:ka.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|c:\\carlanunes\\githubka\\ka\\ka.api\\controllers\\historyreceivecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|solutionrelative:ka.api\\controllers\\historyreceivecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\services\\receiveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\services\\receiveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\services\\promotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\services\\promotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\services\\authenticatedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\services\\authenticatedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\helpers\\discounthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\helpers\\discounthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\seed\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\seed\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C03E45-59EA-44C9-AC49-C41CF55E3CA1}|KA.Domain\\KA.Domain.csproj|c:\\carlanunes\\githubka\\ka\\ka.domain\\interfaces\\ireceiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21C03E45-59EA-44C9-AC49-C41CF55E3CA1}|KA.Domain\\KA.Domain.csproj|solutionrelative:ka.domain\\interfaces\\ireceiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|c:\\carlanunes\\githubka\\ka\\ka.api\\data\\detailsofreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|solutionrelative:ka.api\\data\\detailsofreceipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E022CB2-6C11-4E85-B5F7-40468866D557}|KA.Ioc\\KA.Ioc.csproj|c:\\carlanunes\\githubka\\ka\\ka.ioc\\swagger_scextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E022CB2-6C11-4E85-B5F7-40468866D557}|KA.Ioc\\KA.Ioc.csproj|solutionrelative:ka.ioc\\swagger_scextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E022CB2-6C11-4E85-B5F7-40468866D557}|KA.Ioc\\KA.Ioc.csproj|c:\\carlanunes\\githubka\\ka\\ka.ioc\\scextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E022CB2-6C11-4E85-B5F7-40468866D557}|KA.Ioc\\KA.Ioc.csproj|solutionrelative:ka.ioc\\scextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\entitiesconfiguration\\discountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\entitiesconfiguration\\discountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\context\\kadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\context\\kadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C03E45-59EA-44C9-AC49-C41CF55E3CA1}|KA.Domain\\KA.Domain.csproj|c:\\carlanunes\\githubka\\ka\\ka.domain\\entities\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21C03E45-59EA-44C9-AC49-C41CF55E3CA1}|KA.Domain\\KA.Domain.csproj|solutionrelative:ka.domain\\entities\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\interfaces\\iauthenticatedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\interfaces\\iauthenticatedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\helpers\\promotionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\helpers\\promotionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\services\\receiveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\services\\receiveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\controllers\\historyreceiptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\controllers\\historyreceiptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|c:\\carlanunes\\githubka\\ka\\ka.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CFF652B3-1B0F-4BD3-9BE0-202B1D017B60}|KA.Api\\KA.Api.csproj|solutionrelative:ka.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\views\\historyreceipt\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -33,22 +157,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\models\\receiptitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\models\\receiptitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\services\\promotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\services\\promotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\repositories\\receiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\repositories\\receiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\controllers\\historyreceiptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\controllers\\historyreceiptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21C03E45-59EA-44C9-AC49-C41CF55E3CA1}|KA.Domain\\KA.Domain.csproj|c:\\carlanunes\\githubka\\ka\\ka.domain\\interfaces\\ireceiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21C03E45-59EA-44C9-AC49-C41CF55E3CA1}|KA.Domain\\KA.Domain.csproj|solutionrelative:ka.domain\\interfaces\\ireceiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\services\\receiptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,10 +183,6 @@
       "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\views\\food\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\models\\listoffood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\models\\listoffood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -93,10 +197,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E022CB2-6C11-4E85-B5F7-40468866D557}|KA.Ioc\\KA.Ioc.csproj|c:\\carlanunes\\githubka\\ka\\ka.ioc\\scextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E022CB2-6C11-4E85-B5F7-40468866D557}|KA.Ioc\\KA.Ioc.csproj|solutionrelative:ka.ioc\\scextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\interfaces\\ipromotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,10 +215,6 @@
       "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\services\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -129,10 +225,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\wwwroot\\css\\_shoopingfood.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -159,20 +251,8 @@
       "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\wwwroot\\css\\_menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\services\\authenticatedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\services\\authenticatedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\wwwroot\\css\\_loginpage.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
       "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\wwwroot\\css\\_loginpage.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|c:\\carlanunes\\githubka\\ka\\shoppingfood\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -187,18 +267,6 @@
       "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\models\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\repositories\\promotionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\repositories\\promotionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\repositories\\discountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\repositories\\discountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21C03E45-59EA-44C9-AC49-C41CF55E3CA1}|KA.Domain\\KA.Domain.csproj|c:\\carlanunes\\githubka\\ka\\ka.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21C03E45-59EA-44C9-AC49-C41CF55E3CA1}|KA.Domain\\KA.Domain.csproj|solutionrelative:ka.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -211,10 +279,6 @@
       "RelativeMoniker": "D:0:0:{264377A2-A829-4E1D-8C40-202207C76C8B}|ShoppingFood\\ShoppingFood.csproj|solutionrelative:shoppingfood\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\context\\kadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\context\\kadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\migrations\\kadbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\migrations\\kadbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -222,24 +286,8 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CarlaNunes\\Kan\\KAApi\\KA.Infra.Data\\Migrations\\20241113151712_InitialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E022CB2-6C11-4E85-B5F7-40468866D557}|KA.Ioc\\KA.Ioc.csproj|c:\\carlanunes\\githubka\\ka\\ka.ioc\\swagger_scextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E022CB2-6C11-4E85-B5F7-40468866D557}|KA.Ioc\\KA.Ioc.csproj|solutionrelative:ka.ioc\\swagger_scextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\seed\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\seed\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\dto\\promotiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\dto\\promotiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\helpers\\discounthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\helpers\\discounthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\interfaces\\iauthenticatedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\interfaces\\iauthenticatedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\interfaces\\idiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -252,14 +300,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\dto\\receiptsproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\dto\\receiptsproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|solutionrelative:ka.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74BF2ADC-914E-4086-8CE0-4D999EC3456D}|KA.Application\\KA.Application.csproj|c:\\carlanunes\\githubka\\ka\\ka.application\\interfaces\\ipromotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -282,20 +322,12 @@
       "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\entitiesconfiguration\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21C03E45-59EA-44C9-AC49-C41CF55E3CA1}|KA.Domain\\KA.Domain.csproj|c:\\carlanunes\\githubka\\ka\\ka.domain\\entities\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21C03E45-59EA-44C9-AC49-C41CF55E3CA1}|KA.Domain\\KA.Domain.csproj|solutionrelative:ka.domain\\entities\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\entitiesconfiguration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\entitiesconfiguration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\entitiesconfiguration\\promotionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\entitiesconfiguration\\promotionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|c:\\carlanunes\\githubka\\ka\\ka.infra.data\\entitiesconfiguration\\discountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8575178B-CE3B-469C-9521-A139A1B4FC95}|KA.Infra.Data\\KA.Infra.Data.csproj|solutionrelative:ka.infra.data\\entitiesconfiguration\\discountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21C03E45-59EA-44C9-AC49-C41CF55E3CA1}|KA.Domain\\KA.Domain.csproj|c:\\carlanunes\\githubka\\ka\\ka.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -394,11 +426,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 25,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 37,
               "Title": "Receipt.cshtml",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Views\\Food\\Receipt.cshtml",
               "RelativeDocumentMoniker": "ShoppingFood\\Views\\Food\\Receipt.cshtml",
@@ -407,7 +439,47 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAACKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-12T09:13:04.101Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "KA.Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "KA.Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:58:03.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthenticatedHelper.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Common\\AuthenticatedHelper.cs",
+              "RelativeDocumentMoniker": "KA.Api\\Common\\AuthenticatedHelper.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Common\\AuthenticatedHelper.cs",
+              "RelativeToolTip": "KA.Api\\Common\\AuthenticatedHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:57:37.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PromotionsController.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Controllers\\PromotionsController.cs",
+              "RelativeDocumentMoniker": "KA.Api\\Controllers\\PromotionsController.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Controllers\\PromotionsController.cs",
+              "RelativeToolTip": "KA.Api\\Controllers\\PromotionsController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:55:47.041Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -471,7 +543,462 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReceiveController.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Controllers\\ReceiveController.cs",
+              "RelativeDocumentMoniker": "KA.Api\\Controllers\\ReceiveController.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Controllers\\ReceiveController.cs",
+              "RelativeToolTip": "KA.Api\\Controllers\\ReceiveController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:58:10.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DiscountRepository.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\DiscountRepository.cs",
+              "RelativeDocumentMoniker": "KA.Infra.Data\\Repositories\\DiscountRepository.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\DiscountRepository.cs",
+              "RelativeToolTip": "KA.Infra.Data\\Repositories\\DiscountRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:04:39.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "KA.Infra.Data\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "KA.Infra.Data\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:04:45.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReceiptRepository.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\ReceiptRepository.cs",
+              "RelativeDocumentMoniker": "KA.Infra.Data\\Repositories\\ReceiptRepository.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\ReceiptRepository.cs",
+              "RelativeToolTip": "KA.Infra.Data\\Repositories\\ReceiptRepository.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAIgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:36:19.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PromotionRepository.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\PromotionRepository.cs",
+              "RelativeDocumentMoniker": "KA.Infra.Data\\Repositories\\PromotionRepository.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\PromotionRepository.cs",
+              "RelativeToolTip": "KA.Infra.Data\\Repositories\\PromotionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:04:49.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "KA.Infra.Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "KA.Infra.Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:04:57.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ReceiveServiceTests.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.TestApplication\\ReceiveServiceTests.cs",
+              "RelativeDocumentMoniker": "KA.TestApplication\\ReceiveServiceTests.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.TestApplication\\ReceiveServiceTests.cs",
+              "RelativeToolTip": "KA.TestApplication\\ReceiveServiceTests.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFQAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:59:51.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "KA.Api\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "KA.Api\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:55:14.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReceiveService.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\ReceiveService.cs",
+              "RelativeDocumentMoniker": "KA.Application\\Services\\ReceiveService.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\ReceiveService.cs",
+              "RelativeToolTip": "KA.Application\\Services\\ReceiveService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:14:48.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PromotionService.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\PromotionService.cs",
+              "RelativeDocumentMoniker": "KA.Application\\Services\\PromotionService.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\PromotionService.cs",
+              "RelativeToolTip": "KA.Application\\Services\\PromotionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:14:43.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "KA.Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "KA.Application\\Services\\ProductService.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAFQAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:00:34.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DiscountService.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\DiscountService.cs",
+              "RelativeDocumentMoniker": "KA.Application\\Services\\DiscountService.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\DiscountService.cs",
+              "RelativeToolTip": "KA.Application\\Services\\DiscountService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAA4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:14:33.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthenticatedService.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\AuthenticatedService.cs",
+              "RelativeDocumentMoniker": "KA.Application\\Services\\AuthenticatedService.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\AuthenticatedService.cs",
+              "RelativeToolTip": "KA.Application\\Services\\AuthenticatedService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:14:30.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DiscountHelper.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Helpers\\DiscountHelper.cs",
+              "RelativeDocumentMoniker": "KA.Application\\Helpers\\DiscountHelper.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Helpers\\DiscountHelper.cs",
+              "RelativeToolTip": "KA.Application\\Helpers\\DiscountHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:39:28.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "KA.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "KA.Application\\Services\\UserService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:14:54.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HistoryReceiveController.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Controllers\\HistoryReceiveController.cs",
+              "RelativeDocumentMoniker": "KA.Api\\Controllers\\HistoryReceiveController.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Controllers\\HistoryReceiveController.cs",
+              "RelativeToolTip": "KA.Api\\Controllers\\HistoryReceiveController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:24:08.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "KA.Api\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "KA.Api\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:26:30.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IReceiptRepository.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Domain\\Interfaces\\IReceiptRepository.cs",
+              "RelativeDocumentMoniker": "KA.Domain\\Interfaces\\IReceiptRepository.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Domain\\Interfaces\\IReceiptRepository.cs",
+              "RelativeToolTip": "KA.Domain\\Interfaces\\IReceiptRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:43:55.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Seed\\SeedData.cs",
+              "RelativeDocumentMoniker": "KA.Infra.Data\\Seed\\SeedData.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Seed\\SeedData.cs",
+              "RelativeToolTip": "KA.Infra.Data\\Seed\\SeedData.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T15:12:20.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DetailsOfReceipt.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Data\\DetailsOfReceipt.cs",
+              "RelativeDocumentMoniker": "KA.Api\\Data\\DetailsOfReceipt.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Data\\DetailsOfReceipt.cs",
+              "RelativeToolTip": "KA.Api\\Data\\DetailsOfReceipt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:24:04.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "KA.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "KA.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:14:01.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DiscountConfiguration.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\EntitiesConfiguration\\DiscountConfiguration.cs",
+              "RelativeDocumentMoniker": "KA.Infra.Data\\EntitiesConfiguration\\DiscountConfiguration.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\EntitiesConfiguration\\DiscountConfiguration.cs",
+              "RelativeToolTip": "KA.Infra.Data\\EntitiesConfiguration\\DiscountConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T11:29:38.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SCExtensions.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Ioc\\SCExtensions.cs",
+              "RelativeDocumentMoniker": "KA.Ioc\\SCExtensions.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Ioc\\SCExtensions.cs",
+              "RelativeToolTip": "KA.Ioc\\SCExtensions.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T15:16:09.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Swagger_SCExtensions.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Ioc\\Swagger_SCExtensions.cs",
+              "RelativeDocumentMoniker": "KA.Ioc\\Swagger_SCExtensions.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Ioc\\Swagger_SCExtensions.cs",
+              "RelativeToolTip": "KA.Ioc\\Swagger_SCExtensions.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T12:43:12.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FoodController.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Controllers\\FoodController.cs",
+              "RelativeDocumentMoniker": "ShoppingFood\\Controllers\\FoodController.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Controllers\\FoodController.cs",
+              "RelativeToolTip": "ShoppingFood\\Controllers\\FoodController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:56:02.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "KADbContext.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Context\\KADbContext.cs",
+              "RelativeDocumentMoniker": "KA.Infra.Data\\Context\\KADbContext.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Context\\KADbContext.cs",
+              "RelativeToolTip": "KA.Infra.Data\\Context\\KADbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T11:04:06.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Discount.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Domain\\Entities\\Discount.cs",
+              "RelativeDocumentMoniker": "KA.Domain\\Entities\\Discount.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Domain\\Entities\\Discount.cs",
+              "RelativeToolTip": "KA.Domain\\Entities\\Discount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T11:06:01.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IAuthenticatedService.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IAuthenticatedService.cs",
+              "RelativeDocumentMoniker": "KA.Application\\Interfaces\\IAuthenticatedService.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IAuthenticatedService.cs",
+              "RelativeToolTip": "KA.Application\\Interfaces\\IAuthenticatedService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:51:01.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PromotionHelper.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Helpers\\PromotionHelper.cs",
+              "RelativeDocumentMoniker": "KA.Application\\Helpers\\PromotionHelper.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Helpers\\PromotionHelper.cs",
+              "RelativeToolTip": "KA.Application\\Helpers\\PromotionHelper.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:40:19.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Views\\HistoryReceipt\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShoppingFood\\Views\\HistoryReceipt\\Index.cshtml",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Views\\HistoryReceipt\\Index.cshtml",
+              "RelativeToolTip": "ShoppingFood\\Views\\HistoryReceipt\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T10:38:37.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HistoryReceiptController.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Controllers\\HistoryReceiptController.cs",
+              "RelativeDocumentMoniker": "ShoppingFood\\Controllers\\HistoryReceiptController.cs",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Controllers\\HistoryReceiptController.cs",
+              "RelativeToolTip": "ShoppingFood\\Controllers\\HistoryReceiptController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwCIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:30:58.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "HistoryReceiveController.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\HistoryReceiveController.cs",
+              "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\HistoryReceiveController.cs",
+              "ToolTip": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\HistoryReceiveController.cs",
+              "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\HistoryReceiveController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAD4vzUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:05:45.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "PromotionsController.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\PromotionsController.cs",
+              "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\PromotionsController.cs",
+              "ToolTip": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\PromotionsController.cs",
+              "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\PromotionsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:58:54.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ReceiveController.cs",
+              "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\ReceiveController.cs",
+              "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\ReceiveController.cs",
+              "ToolTip": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\ReceiveController.cs",
+              "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\ReceiveController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAABBwDAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:05:59.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ShoppingFood\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ShoppingFood\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T21:05:04.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "KA.Api\\Properties\\launchSettings.json",
@@ -484,127 +1011,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ShoppingFood\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ShoppingFood\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-13T21:05:04.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReceiveService.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\ReceiveService.cs",
-              "RelativeDocumentMoniker": "KA.Application\\Services\\ReceiveService.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\ReceiveService.cs",
-              "RelativeToolTip": "KA.Application\\Services\\ReceiveService.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAD4vycAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:14:48.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PromotionService.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\PromotionService.cs",
-              "RelativeDocumentMoniker": "KA.Application\\Services\\PromotionService.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\PromotionService.cs",
-              "RelativeToolTip": "KA.Application\\Services\\PromotionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:14:43.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PromotionHelper.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Helpers\\PromotionHelper.cs",
-              "RelativeDocumentMoniker": "KA.Application\\Helpers\\PromotionHelper.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Helpers\\PromotionHelper.cs",
-              "RelativeToolTip": "KA.Application\\Helpers\\PromotionHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:40:19.729Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 85,
-              "Title": "ReceiveController.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\ReceiveController.cs",
-              "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\ReceiveController.cs",
-              "ToolTip": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\ReceiveController.cs",
-              "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\ReceiveController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:05:59.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 86,
-              "Title": "PromotionsController.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\PromotionsController.cs",
-              "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\PromotionsController.cs",
-              "ToolTip": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\PromotionsController.cs",
-              "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\PromotionsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:58:54.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 87,
-              "Title": "HistoryReceiveController.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\HistoryReceiveController.cs",
-              "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\HistoryReceiveController.cs",
-              "ToolTip": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\HistoryReceiveController.cs",
-              "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\HistoryReceiveController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAD4vzUAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:05:45.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HistoryReceiptController.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Controllers\\HistoryReceiptController.cs",
-              "RelativeDocumentMoniker": "ShoppingFood\\Controllers\\HistoryReceiptController.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Controllers\\HistoryReceiptController.cs",
-              "RelativeToolTip": "ShoppingFood\\Controllers\\HistoryReceiptController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAD4vx4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T19:30:58.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReceiptRepository.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\ReceiptRepository.cs",
-              "RelativeDocumentMoniker": "KA.Infra.Data\\Repositories\\ReceiptRepository.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\ReceiptRepository.cs",
-              "RelativeToolTip": "KA.Infra.Data\\Repositories\\ReceiptRepository.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAmwHQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T19:36:19.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Views\\HistoryReceipt\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShoppingFood\\Views\\HistoryReceipt\\Index.cshtml",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Views\\HistoryReceipt\\Index.cshtml",
-              "RelativeToolTip": "ShoppingFood\\Views\\HistoryReceipt\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T10:38:37.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 35,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Views\\HistoryReceipt\\Details.cshtml",
               "RelativeDocumentMoniker": "ShoppingFood\\Views\\HistoryReceipt\\Details.cshtml",
@@ -612,11 +1019,12 @@
               "RelativeToolTip": "ShoppingFood\\Views\\HistoryReceipt\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAACKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T10:41:27.268Z"
+              "WhenOpened": "2024-11-12T10:41:27.268Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 96,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\LoginController.cs",
@@ -624,11 +1032,12 @@
               "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\LoginController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:05:49.829Z"
+              "WhenOpened": "2024-11-13T14:05:49.829Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 38,
               "Title": "ReceiptItem.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Models\\ReceiptItem.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Models\\ReceiptItem.cs",
@@ -636,11 +1045,12 @@
               "RelativeToolTip": "ShoppingFood\\Models\\ReceiptItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T20:15:23.595Z"
+              "WhenOpened": "2024-11-13T20:15:23.595Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 40,
               "Title": "DetailsOfReceipt.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Models\\DetailsOfReceipt.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Models\\DetailsOfReceipt.cs",
@@ -648,11 +1058,12 @@
               "RelativeToolTip": "ShoppingFood\\Models\\DetailsOfReceipt.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:31:35.436Z"
+              "WhenOpened": "2024-11-13T18:31:35.436Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 39,
               "Title": "ReceiptService.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Services\\ReceiptService.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Services\\ReceiptService.cs",
@@ -660,11 +1071,12 @@
               "RelativeToolTip": "ShoppingFood\\Services\\ReceiptService.cs",
               "ViewState": "AQIAABEAAAAAAAAAAADwvykAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:29:14.725Z"
+              "WhenOpened": "2024-11-12T10:29:14.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 41,
               "Title": "IReceiveService.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IReceiveService.cs",
               "RelativeDocumentMoniker": "KA.Application\\Interfaces\\IReceiveService.cs",
@@ -672,35 +1084,25 @@
               "RelativeToolTip": "KA.Application\\Interfaces\\IReceiveService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:19:59.983Z"
+              "WhenOpened": "2024-11-13T14:19:59.983Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IReceiptRepository.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Domain\\Interfaces\\IReceiptRepository.cs",
-              "RelativeDocumentMoniker": "KA.Domain\\Interfaces\\IReceiptRepository.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Domain\\Interfaces\\IReceiptRepository.cs",
-              "RelativeToolTip": "KA.Domain\\Interfaces\\IReceiptRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T19:43:55.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 97,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAABBwCIAAAAzAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAABRwCIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:05:54.098Z"
+              "WhenOpened": "2024-11-13T14:05:54.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 98,
               "Title": "ListOfReceipts.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Data\\ListOfReceipts.cs",
               "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Data\\ListOfReceipts.cs",
@@ -708,11 +1110,12 @@
               "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Data\\ListOfReceipts.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T19:30:28.536Z"
+              "WhenOpened": "2024-11-13T19:30:28.536Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 99,
               "Title": "DetailsOfReceipt.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Data\\DetailsOfReceipt.cs",
               "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Data\\DetailsOfReceipt.cs",
@@ -720,11 +1123,12 @@
               "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Data\\DetailsOfReceipt.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T19:30:30.951Z"
+              "WhenOpened": "2024-11-13T19:30:30.951Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 100,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Startup.cs",
               "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Startup.cs",
@@ -732,11 +1136,12 @@
               "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Startup.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:44:08.258Z"
+              "WhenOpened": "2024-11-13T11:44:08.258Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 46,
               "Title": "ListOfPromotions.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Models\\ListOfPromotions.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Models\\ListOfPromotions.cs",
@@ -744,11 +1149,12 @@
               "RelativeToolTip": "ShoppingFood\\Models\\ListOfPromotions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:59:07.775Z"
+              "WhenOpened": "2024-11-13T18:59:07.775Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 42,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ShoppingFood\\Views\\Shared\\_Layout.cshtml",
@@ -756,11 +1162,12 @@
               "RelativeToolTip": "ShoppingFood\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T18:13:45.549Z"
+              "WhenOpened": "2024-11-13T18:13:45.549Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 43,
               "Title": "_shoopingFood.scss",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\wwwroot\\css\\_shoopingFood.scss",
               "RelativeDocumentMoniker": "ShoppingFood\\wwwroot\\css\\_shoopingFood.scss",
@@ -768,11 +1175,12 @@
               "RelativeToolTip": "ShoppingFood\\wwwroot\\css\\_shoopingFood.scss",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-11-13T18:11:42.184Z"
+              "WhenOpened": "2024-11-13T18:11:42.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 45,
               "Title": "ListOfFood.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Models\\ListOfFood.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Models\\ListOfFood.cs",
@@ -780,11 +1188,12 @@
               "RelativeToolTip": "ShoppingFood\\Models\\ListOfFood.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:34:59.775Z"
+              "WhenOpened": "2024-11-11T17:34:59.775Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 50,
               "Title": "Promotion.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Models\\Promotion.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Models\\Promotion.cs",
@@ -792,23 +1201,25 @@
               "RelativeToolTip": "ShoppingFood\\Models\\Promotion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:59:32.232Z"
+              "WhenOpened": "2024-11-13T18:59:32.232Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 44,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Views\\Food\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoppingFood\\Views\\Food\\Index.cshtml",
               "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Views\\Food\\Index.cshtml",
               "RelativeToolTip": "ShoppingFood\\Views\\Food\\Index.cshtml",
-              "ViewState": "AQIAAAEAAAAAAAAAAABBwA4AAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA4AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T22:37:05.672Z"
+              "WhenOpened": "2024-11-11T22:37:05.672Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 101,
               "Title": "ListOfFood.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Data\\ListOfFood.cs",
               "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Data\\ListOfFood.cs",
@@ -816,23 +1227,12 @@
               "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Data\\ListOfFood.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T16:40:56.577Z"
+              "WhenOpened": "2024-11-13T16:40:56.577Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FoodController.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Controllers\\FoodController.cs",
-              "RelativeDocumentMoniker": "ShoppingFood\\Controllers\\FoodController.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Controllers\\FoodController.cs",
-              "RelativeToolTip": "ShoppingFood\\Controllers\\FoodController.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAABBwDMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:56:02.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 47,
               "Title": "PromotionService.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Services\\PromotionService.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Services\\PromotionService.cs",
@@ -840,11 +1240,12 @@
               "RelativeToolTip": "ShoppingFood\\Services\\PromotionService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:57:42.416Z"
+              "WhenOpened": "2024-11-13T18:57:42.416Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 49,
               "Title": "IPromotionService.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Interfaces\\IPromotionService.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Interfaces\\IPromotionService.cs",
@@ -852,35 +1253,25 @@
               "RelativeToolTip": "ShoppingFood\\Interfaces\\IPromotionService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T19:00:47.471Z"
+              "WhenOpened": "2024-11-13T19:00:47.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SCExtensions.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Ioc\\SCExtensions.cs",
-              "RelativeDocumentMoniker": "KA.Ioc\\SCExtensions.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Ioc\\SCExtensions.cs",
-              "RelativeToolTip": "KA.Ioc\\SCExtensions.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAABBwDkAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:16:09.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 48,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Startup.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Startup.cs",
               "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Startup.cs",
               "RelativeToolTip": "ShoppingFood\\Startup.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAABBwDMAAAA7AAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAABRwDMAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T18:42:17.565Z"
+              "WhenOpened": "2024-11-09T18:42:17.565Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 54,
               "Title": "DiscountDTO.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\DTO\\DiscountDTO.cs",
               "RelativeDocumentMoniker": "KA.Application\\DTO\\DiscountDTO.cs",
@@ -888,11 +1279,12 @@
               "RelativeToolTip": "KA.Application\\DTO\\DiscountDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:17:30.9Z"
+              "WhenOpened": "2024-11-13T13:17:30.9Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 55,
               "Title": "ProductDTO.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\DTO\\ProductDTO.cs",
               "RelativeDocumentMoniker": "KA.Application\\DTO\\ProductDTO.cs",
@@ -900,11 +1292,12 @@
               "RelativeToolTip": "KA.Application\\DTO\\ProductDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:17:43.906Z"
+              "WhenOpened": "2024-11-13T13:17:43.906Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 51,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Models\\Product.cs",
@@ -912,23 +1305,12 @@
               "RelativeToolTip": "ShoppingFood\\Models\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:45:56.37Z"
+              "WhenOpened": "2024-11-13T18:45:56.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "KA.Application\\Services\\ProductService.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "KA.Application\\Services\\ProductService.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAnwCcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T16:31:13.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 52,
               "Title": "ProductsService.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Services\\ProductsService.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Services\\ProductsService.cs",
@@ -936,11 +1318,12 @@
               "RelativeToolTip": "ShoppingFood\\Services\\ProductsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T18:46:18.18Z"
+              "WhenOpened": "2024-11-09T18:46:18.18Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 57,
               "Title": "_menu.scss",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\wwwroot\\css\\_menu.scss",
               "RelativeDocumentMoniker": "ShoppingFood\\wwwroot\\css\\_menu.scss",
@@ -948,11 +1331,12 @@
               "RelativeToolTip": "ShoppingFood\\wwwroot\\css\\_menu.scss",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-11-13T17:46:10.259Z"
+              "WhenOpened": "2024-11-13T17:46:10.259Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 53,
               "Title": "Discount.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Models\\Discount.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Models\\Discount.cs",
@@ -960,11 +1344,12 @@
               "RelativeToolTip": "ShoppingFood\\Models\\Discount.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:46:36.357Z"
+              "WhenOpened": "2024-11-13T18:46:36.357Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 58,
               "Title": "site.css",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ShoppingFood\\wwwroot\\css\\site.css",
@@ -972,23 +1357,12 @@
               "RelativeToolTip": "ShoppingFood\\wwwroot\\css\\site.css",
               "ViewState": "AQIAAAAAAAAAAAAAAABBwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-13T17:28:09.799Z"
+              "WhenOpened": "2024-11-13T17:28:09.799Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "DiscountService.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\DiscountService.cs",
-              "RelativeDocumentMoniker": "KA.Application\\Services\\DiscountService.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\DiscountService.cs",
-              "RelativeToolTip": "KA.Application\\Services\\DiscountService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAABBwBQAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:14:33.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 56,
               "Title": "_shoopingFood.css",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\wwwroot\\css\\_shoopingFood.css",
               "RelativeDocumentMoniker": "ShoppingFood\\wwwroot\\css\\_shoopingFood.css",
@@ -996,23 +1370,12 @@
               "RelativeToolTip": "ShoppingFood\\wwwroot\\css\\_shoopingFood.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-13T18:16:08.534Z"
+              "WhenOpened": "2024-11-13T18:16:08.534Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "KA.Infra.Data\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "KA.Infra.Data\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:04:57.384Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 62,
               "Title": "_loginPage.scss",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\wwwroot\\css\\_loginPage.scss",
               "RelativeDocumentMoniker": "ShoppingFood\\wwwroot\\css\\_loginPage.scss",
@@ -1020,23 +1383,25 @@
               "RelativeToolTip": "ShoppingFood\\wwwroot\\css\\_loginPage.scss",
               "ViewState": "AQIAACYAAAAAAAAAAAAswDkAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-11-13T17:07:07.803Z"
+              "WhenOpened": "2024-11-13T17:07:07.803Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 60,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ShoppingFood\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAABBwAoAAAAtAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAABRwAoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T18:45:58.352Z"
+              "WhenOpened": "2024-11-09T18:45:58.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 59,
               "Title": "Receipt.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Models\\Receipt.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Models\\Receipt.cs",
@@ -1044,23 +1409,12 @@
               "RelativeToolTip": "ShoppingFood\\Models\\Receipt.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T09:13:14.235Z"
+              "WhenOpened": "2024-11-12T09:13:14.235Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "AuthenticatedService.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\AuthenticatedService.cs",
-              "RelativeDocumentMoniker": "KA.Application\\Services\\AuthenticatedService.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\AuthenticatedService.cs",
-              "RelativeToolTip": "KA.Application\\Services\\AuthenticatedService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAADwvxsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:14:30.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 61,
               "Title": "_menu.css",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\wwwroot\\css\\_menu.css",
               "RelativeDocumentMoniker": "ShoppingFood\\wwwroot\\css\\_menu.css",
@@ -1068,23 +1422,12 @@
               "RelativeToolTip": "ShoppingFood\\wwwroot\\css\\_menu.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-13T17:58:15.264Z"
+              "WhenOpened": "2024-11-13T17:58:15.264Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "KA.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "KA.Application\\Services\\UserService.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAADwvxQAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:14:54.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 63,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoppingFood\\Views\\Login\\Index.cshtml",
@@ -1092,35 +1435,12 @@
               "RelativeToolTip": "ShoppingFood\\Views\\Login\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T09:40:54.709Z"
+              "WhenOpened": "2024-11-12T09:40:54.709Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "PromotionRepository.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\PromotionRepository.cs",
-              "RelativeDocumentMoniker": "KA.Infra.Data\\Repositories\\PromotionRepository.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\PromotionRepository.cs",
-              "RelativeToolTip": "KA.Infra.Data\\Repositories\\PromotionRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:04:49.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "KA.Infra.Data\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "KA.Infra.Data\\Repositories\\ProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:04:45.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 64,
               "Title": "_LayoutLogin.cshtml",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Views\\Shared\\_LayoutLogin.cshtml",
               "RelativeDocumentMoniker": "ShoppingFood\\Views\\Shared\\_LayoutLogin.cshtml",
@@ -1128,11 +1448,12 @@
               "RelativeToolTip": "ShoppingFood\\Views\\Shared\\_LayoutLogin.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-13T17:02:50.402Z"
+              "WhenOpened": "2024-11-13T17:02:50.402Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 65,
               "Title": "UserResponse.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Models\\UserResponse.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Models\\UserResponse.cs",
@@ -1140,11 +1461,12 @@
               "RelativeToolTip": "ShoppingFood\\Models\\UserResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T19:31:58.356Z"
+              "WhenOpened": "2024-11-11T19:31:58.356Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 102,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Data\\OrderItem.cs",
               "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Data\\OrderItem.cs",
@@ -1152,11 +1474,12 @@
               "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Data\\OrderItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:18:44.679Z"
+              "WhenOpened": "2024-11-13T14:18:44.679Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 103,
               "Title": "ListOrderItem.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Data\\ListOrderItem.cs",
               "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Data\\ListOrderItem.cs",
@@ -1164,23 +1487,12 @@
               "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Data\\ListOrderItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:18:41.107Z"
+              "WhenOpened": "2024-11-13T14:18:41.107Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "DiscountRepository.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\DiscountRepository.cs",
-              "RelativeDocumentMoniker": "KA.Infra.Data\\Repositories\\DiscountRepository.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Repositories\\DiscountRepository.cs",
-              "RelativeToolTip": "KA.Infra.Data\\Repositories\\DiscountRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:04:39.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 66,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "KA.Domain\\Entities\\Product.cs",
@@ -1188,11 +1500,12 @@
               "RelativeToolTip": "KA.Domain\\Entities\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:06:12.701Z"
+              "WhenOpened": "2024-11-13T11:06:12.701Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 104,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Program.cs",
@@ -1200,11 +1513,12 @@
               "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:43:53.08Z"
+              "WhenOpened": "2024-11-13T11:43:53.08Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 67,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\appsettings.json",
               "RelativeDocumentMoniker": "ShoppingFood\\appsettings.json",
@@ -1212,11 +1526,12 @@
               "RelativeToolTip": "ShoppingFood\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-11T15:24:44.601Z"
+              "WhenOpened": "2024-11-11T15:24:44.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 68,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ShoppingFood\\appsettings.Development.json",
@@ -1224,23 +1539,12 @@
               "RelativeToolTip": "ShoppingFood\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-13T16:16:15.022Z"
+              "WhenOpened": "2024-11-13T16:16:15.022Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Seed\\SeedData.cs",
-              "RelativeDocumentMoniker": "KA.Infra.Data\\Seed\\SeedData.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Seed\\SeedData.cs",
-              "RelativeToolTip": "KA.Infra.Data\\Seed\\SeedData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:12:20.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 105,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Properties\\launchSettings.json",
@@ -1248,11 +1552,12 @@
               "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-13T16:11:19.514Z"
+              "WhenOpened": "2024-11-13T16:11:19.514Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 70,
               "Title": "20241113151712_InitialMigration.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Infra.Data\\Migrations\\20241113151712_InitialMigration.cs",
               "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Infra.Data\\Migrations\\20241113151712_InitialMigration.cs",
@@ -1263,7 +1568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 69,
               "Title": "KADbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Migrations\\KADbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "KA.Infra.Data\\Migrations\\KADbContextModelSnapshot.cs",
@@ -1271,23 +1576,12 @@
               "RelativeToolTip": "KA.Infra.Data\\Migrations\\KADbContextModelSnapshot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:19:19.331Z"
+              "WhenOpened": "2024-11-13T15:19:19.331Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "KADbContext.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Context\\KADbContext.cs",
-              "RelativeDocumentMoniker": "KA.Infra.Data\\Context\\KADbContext.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\Context\\KADbContext.cs",
-              "RelativeToolTip": "KA.Infra.Data\\Context\\KADbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:04:06.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 71,
               "Title": "PromotionDTO.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\DTO\\PromotionDTO.cs",
               "RelativeDocumentMoniker": "KA.Application\\DTO\\PromotionDTO.cs",
@@ -1295,23 +1589,12 @@
               "RelativeToolTip": "KA.Application\\DTO\\PromotionDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:17:53.378Z"
+              "WhenOpened": "2024-11-13T13:17:53.378Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "Swagger_SCExtensions.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Ioc\\Swagger_SCExtensions.cs",
-              "RelativeDocumentMoniker": "KA.Ioc\\Swagger_SCExtensions.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Ioc\\Swagger_SCExtensions.cs",
-              "RelativeToolTip": "KA.Ioc\\Swagger_SCExtensions.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAABBwDUAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T12:43:12.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 73,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "KA.Application\\DTO\\UserDTO.cs",
@@ -1319,11 +1602,12 @@
               "RelativeToolTip": "KA.Application\\DTO\\UserDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:18:29.806Z"
+              "WhenOpened": "2024-11-13T13:18:29.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 106,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\appsettings.json",
               "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\appsettings.json",
@@ -1331,11 +1615,12 @@
               "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-13T11:42:16Z"
+              "WhenOpened": "2024-11-13T11:42:16Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 74,
               "Title": "ReceiptsproductDTO.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\DTO\\ReceiptsproductDTO.cs",
               "RelativeDocumentMoniker": "KA.Application\\DTO\\ReceiptsproductDTO.cs",
@@ -1343,11 +1628,12 @@
               "RelativeToolTip": "KA.Application\\DTO\\ReceiptsproductDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:18:19.289Z"
+              "WhenOpened": "2024-11-13T13:18:19.289Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 72,
               "Title": "IDiscountService.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IDiscountService.cs",
               "RelativeDocumentMoniker": "KA.Application\\Interfaces\\IDiscountService.cs",
@@ -1355,35 +1641,12 @@
               "RelativeToolTip": "KA.Application\\Interfaces\\IDiscountService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:22:10.249Z"
+              "WhenOpened": "2024-11-13T14:22:10.249Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "DiscountHelper.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Helpers\\DiscountHelper.cs",
-              "RelativeDocumentMoniker": "KA.Application\\Helpers\\DiscountHelper.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Helpers\\DiscountHelper.cs",
-              "RelativeToolTip": "KA.Application\\Helpers\\DiscountHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:39:28.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "IAuthenticatedService.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IAuthenticatedService.cs",
-              "RelativeDocumentMoniker": "KA.Application\\Interfaces\\IAuthenticatedService.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IAuthenticatedService.cs",
-              "RelativeToolTip": "KA.Application\\Interfaces\\IAuthenticatedService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:51:01.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 107,
               "Title": "AuthenticatedHelper.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\Kan\\KAApi\\KA.Api1\\Common\\AuthenticatedHelper.cs",
               "RelativeDocumentMoniker": "..\\..\\Kan\\KAApi\\KA.Api1\\Common\\AuthenticatedHelper.cs",
@@ -1391,35 +1654,12 @@
               "RelativeToolTip": "..\\..\\Kan\\KAApi\\KA.Api1\\Common\\AuthenticatedHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:11:51.092Z"
+              "WhenOpened": "2024-11-13T14:11:51.092Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "KA.Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "KA.Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:14:01.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "KA.Application\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "KA.Application\\Interfaces\\IProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:13:48.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 75,
               "Title": "IPromotionService.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Application\\Interfaces\\IPromotionService.cs",
               "RelativeDocumentMoniker": "KA.Application\\Interfaces\\IPromotionService.cs",
@@ -1427,11 +1667,12 @@
               "RelativeToolTip": "KA.Application\\Interfaces\\IPromotionService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:13:52.477Z"
+              "WhenOpened": "2024-11-13T13:13:52.477Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 76,
               "Title": "IPromotionRepository.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Domain\\Interfaces\\IPromotionRepository.cs",
               "RelativeDocumentMoniker": "KA.Domain\\Interfaces\\IPromotionRepository.cs",
@@ -1439,11 +1680,12 @@
               "RelativeToolTip": "KA.Domain\\Interfaces\\IPromotionRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:05:40.496Z"
+              "WhenOpened": "2024-11-13T13:05:40.496Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 77,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Domain\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "KA.Domain\\Interfaces\\IUserRepository.cs",
@@ -1451,23 +1693,12 @@
               "RelativeToolTip": "KA.Domain\\Interfaces\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T13:05:50.433Z"
+              "WhenOpened": "2024-11-13T13:05:50.433Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "Discount.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Domain\\Entities\\Discount.cs",
-              "RelativeDocumentMoniker": "KA.Domain\\Entities\\Discount.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Domain\\Entities\\Discount.cs",
-              "RelativeToolTip": "KA.Domain\\Entities\\Discount.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:06:01.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 79,
               "Title": "ProductConfiguration.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\EntitiesConfiguration\\ProductConfiguration.cs",
               "RelativeDocumentMoniker": "KA.Infra.Data\\EntitiesConfiguration\\ProductConfiguration.cs",
@@ -1475,11 +1706,12 @@
               "RelativeToolTip": "KA.Infra.Data\\EntitiesConfiguration\\ProductConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:32:27.26Z"
+              "WhenOpened": "2024-11-13T11:32:27.26Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 78,
               "Title": "ReceiptsProductConfiguration.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\EntitiesConfiguration\\ReceiptsProductConfiguration.cs",
               "RelativeDocumentMoniker": "KA.Infra.Data\\EntitiesConfiguration\\ReceiptsProductConfiguration.cs",
@@ -1487,11 +1719,12 @@
               "RelativeToolTip": "KA.Infra.Data\\EntitiesConfiguration\\ReceiptsProductConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:34:27.289Z"
+              "WhenOpened": "2024-11-13T11:34:27.289Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 80,
               "Title": "UserConfiguration.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\EntitiesConfiguration\\UserConfiguration.cs",
               "RelativeDocumentMoniker": "KA.Infra.Data\\EntitiesConfiguration\\UserConfiguration.cs",
@@ -1499,11 +1732,12 @@
               "RelativeToolTip": "KA.Infra.Data\\EntitiesConfiguration\\UserConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:35:06.132Z"
+              "WhenOpened": "2024-11-13T11:35:06.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 81,
               "Title": "PromotionConfiguration.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\EntitiesConfiguration\\PromotionConfiguration.cs",
               "RelativeDocumentMoniker": "KA.Infra.Data\\EntitiesConfiguration\\PromotionConfiguration.cs",
@@ -1511,23 +1745,12 @@
               "RelativeToolTip": "KA.Infra.Data\\EntitiesConfiguration\\PromotionConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:33:11.103Z"
+              "WhenOpened": "2024-11-13T11:33:11.103Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "DiscountConfiguration.cs",
-              "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\EntitiesConfiguration\\DiscountConfiguration.cs",
-              "RelativeDocumentMoniker": "KA.Infra.Data\\EntitiesConfiguration\\DiscountConfiguration.cs",
-              "ToolTip": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Infra.Data\\EntitiesConfiguration\\DiscountConfiguration.cs",
-              "RelativeToolTip": "KA.Infra.Data\\EntitiesConfiguration\\DiscountConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:29:38.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 82,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "KA.Domain\\Entities\\User.cs",
@@ -1535,11 +1758,12 @@
               "RelativeToolTip": "KA.Domain\\Entities\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:07:15.268Z"
+              "WhenOpened": "2024-11-13T11:07:15.268Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 83,
               "Title": "Promotion.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\KA.Domain\\Entities\\Promotion.cs",
               "RelativeDocumentMoniker": "KA.Domain\\Entities\\Promotion.cs",
@@ -1547,11 +1771,12 @@
               "RelativeToolTip": "KA.Domain\\Entities\\Promotion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T11:06:14.644Z"
+              "WhenOpened": "2024-11-13T11:06:14.644Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 84,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "ShoppingFood\\Views\\Shared\\_Layout.cshtml.css",
@@ -1559,11 +1784,12 @@
               "RelativeToolTip": "ShoppingFood\\Views\\Shared\\_Layout.cshtml.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-12T10:46:46.745Z"
+              "WhenOpened": "2024-11-12T10:46:46.745Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 85,
               "Title": "IReceiptService.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Interfaces\\IReceiptService.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Interfaces\\IReceiptService.cs",
@@ -1571,11 +1797,12 @@
               "RelativeToolTip": "ShoppingFood\\Interfaces\\IReceiptService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:35:23.283Z"
+              "WhenOpened": "2024-11-12T10:35:23.283Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 87,
               "Title": "ILoginService.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Interfaces\\ILoginService.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Interfaces\\ILoginService.cs",
@@ -1583,11 +1810,12 @@
               "RelativeToolTip": "ShoppingFood\\Interfaces\\ILoginService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T19:30:25.393Z"
+              "WhenOpened": "2024-11-11T19:30:25.393Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 86,
               "Title": "LoginService.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Services\\LoginService.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Services\\LoginService.cs",
@@ -1595,11 +1823,12 @@
               "RelativeToolTip": "ShoppingFood\\Services\\LoginService.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAASwBcAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T18:46:14.419Z"
+              "WhenOpened": "2024-11-09T18:46:14.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 88,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Models\\User.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Models\\User.cs",
@@ -1607,11 +1836,12 @@
               "RelativeToolTip": "ShoppingFood\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T20:00:00.04Z"
+              "WhenOpened": "2024-11-11T20:00:00.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 89,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Program.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Program.cs",
@@ -1619,11 +1849,12 @@
               "RelativeToolTip": "ShoppingFood\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T18:43:19.566Z"
+              "WhenOpened": "2024-11-09T18:43:19.566Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 90,
               "Title": "ShoppingFood.csproj",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\ShoppingFood.csproj",
               "RelativeDocumentMoniker": "ShoppingFood\\ShoppingFood.csproj",
@@ -1635,7 +1866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 91,
               "Title": "IProductsService.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Interfaces\\IProductsService.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Interfaces\\IProductsService.cs",
@@ -1643,11 +1874,12 @@
               "RelativeToolTip": "ShoppingFood\\Interfaces\\IProductsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T19:39:14.706Z"
+              "WhenOpened": "2024-11-11T19:39:14.706Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 92,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\CarlaNunes\\GitHubKa\\KA\\ShoppingFood\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "ShoppingFood\\Models\\ErrorViewModel.cs",
@@ -1655,7 +1887,8 @@
               "RelativeToolTip": "ShoppingFood\\Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:34:58.974Z"
+              "WhenOpened": "2024-11-11T17:34:58.974Z",
+              "EditorCaption": ""
             }
           ]
         }

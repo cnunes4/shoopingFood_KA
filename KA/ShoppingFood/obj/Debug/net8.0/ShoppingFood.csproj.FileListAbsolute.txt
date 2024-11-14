@@ -66,3 +66,4 @@ C:\CarlaNunes\GitHubKa\KA\ShoppingFood\obj\Debug\net8.0\refint\ShoppingFood.dll
 C:\CarlaNunes\GitHubKa\KA\ShoppingFood\obj\Debug\net8.0\ShoppingFood.pdb
 C:\CarlaNunes\GitHubKa\KA\ShoppingFood\obj\Debug\net8.0\ShoppingFood.genruntimeconfig.cache
 C:\CarlaNunes\GitHubKa\KA\ShoppingFood\obj\Debug\net8.0\ref\ShoppingFood.dll
+C:\CarlaNunes\GitHubKa\KA\ShoppingFood\obj\Debug\net8.0\ShoppingFood.sourcelink.json

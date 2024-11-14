@@ -3,6 +3,7 @@ using KA.Application.DTO;
 using KA.Application.Interfaces;
 using KA.Domain.Entities;
 using KA.Domain.Interfaces;
+using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 
 namespace KA.Application.Services
@@ -11,51 +12,52 @@ namespace KA.Application.Services
     {
         private readonly IDiscountRepository _discountRepository;
         private readonly IMapper _mapper;
+        private readonly ILogger<DiscountService> _logger;
 
-
-        public DiscountService(IDiscountRepository discountRepository)
+        public DiscountService(IDiscountRepository discountRepository, ILogger<DiscountService> logger)
         {
             _discountRepository = discountRepository;
+            _logger = logger;
+            // This configuration sets up a bidirectional mapping between the Discount and DiscountDTO classes.
             _mapper = new MapperConfiguration(delegate (IMapperConfigurationExpression cfg)
             {
                 cfg.CreateMap<Discount, DiscountDTO>().ReverseMap();
             }).CreateMapper();
         }
 
+        /// <summary>
+        /// Get All Discounts in DB
+        /// </summary>
+        /// <returns>List of discounts</returns>
         public async Task<List<DiscountDTO>?> GetAllDiscountsAsync()
         {
             var items = await _discountRepository.GetAllDiscountsAsync();
 
-            if (!items.Any())
+            if (items == null || !items.Any())
             {
+                _logger.LogError($"No Discounts found");
                 return null;
             }
 
-            var itemsDTO = new List<DiscountDTO>();
-            foreach (var item in items)
-            {
-                itemsDTO.Add(_mapper.Map<DiscountDTO>(item));
-            }
-         
-            return itemsDTO;
+
+            return items.Select(item => _mapper.Map<DiscountDTO>(item)).ToList();
         }
 
+        /// <summary>
+        /// Get all discounts for one product 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>List of discounts</returns>
         public async Task<List<DiscountDTO>?> GetDiscountsByProductIdAsync(int id)
         {
             var items = await _discountRepository.GetDiscountsByProductIdAsync(id);
 
-            if (!items.Any())
+            if (items == null || !items.Any())
             {
+                _logger.LogError($"No Discounts found o this product {id}");
                 return null;
             }
-
-            var itemsDTO = new List<DiscountDTO>();
-            foreach (var item in items)
-            {
-                itemsDTO.Add(_mapper.Map<DiscountDTO>(item));
-            }
-
-            return itemsDTO;
+            return items.Select(item => _mapper.Map<DiscountDTO>(item)).ToList(); ;
         }
     }
 }

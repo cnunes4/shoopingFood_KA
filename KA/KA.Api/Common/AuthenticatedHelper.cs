@@ -7,6 +7,12 @@ namespace KAApi.Common
 {
     public static class AuthenticatedHelper
     {
+        /// <summary>
+        /// Generate a JWTToken
+        /// </summary>
+        /// <param name="username"></param>
+        /// <param name="configuration"></param>
+        /// <returns></returns>
         public static string GenerateJwtToken(string username, IConfiguration configuration)
         {
             var jwtSettings = configuration.GetSection("JwtSettings");

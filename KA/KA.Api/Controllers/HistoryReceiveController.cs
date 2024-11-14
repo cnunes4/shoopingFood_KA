@@ -19,6 +19,10 @@ namespace KA.Api1.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Get All Receipts for one user
+        /// </summary>
+        /// <returns>List of all receipts taht user has</returns>
         [HttpGet("GetAllReceiptsByUser")]
         [Authorize]
         public async Task<ActionResult<ListOfReceipts>> GetAllReceiptsByUser()
@@ -27,7 +31,7 @@ namespace KA.Api1.Controllers
             {
                 var result = await _receiveService.GetAllReceivesByUserId(User.Identity.Name);
 
-                if (!result.Any())
+                if (result!= null && !result.Any())
                 {
                     return NotFound("No Receipts");
                 }
@@ -44,7 +48,11 @@ namespace KA.Api1.Controllers
             }
         }
 
-
+        /// <summary>
+        /// Get all details for one Receipt id
+        /// </summary>
+        /// <param name="receiptId">receipt id</param>
+        /// <returns>Details of receipt and list of products</returns>
         [HttpPost("GetDetailsReceiptById")]
         [Authorize]
         public async Task<ActionResult<DetailsOfReceipt>> GetDetailsReceiptById([FromBody] int receiptId)
@@ -53,7 +61,7 @@ namespace KA.Api1.Controllers
             {
                 var resultProducts = await _receiveService.GetDetailsReceiptByReceiptId(receiptId);
 
-                if (!resultProducts.Any())
+                if (resultProducts != null && !resultProducts.Any())
                 {
                     return NotFound("No Details");
                 }

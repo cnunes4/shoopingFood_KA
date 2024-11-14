@@ -4,6 +4,7 @@ using KA.Application.Helpers;
 using KA.Application.Interfaces;
 using KA.Domain.Entities;
 using KA.Domain.Interfaces;
+using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Diagnostics;
 
@@ -14,11 +15,15 @@ namespace KA.Application.Services
         private readonly IReceiptRepository _receiptRepository;
         private readonly IUserRepository _userRepository;
         private readonly IMapper _mapper;
-
-        public ReceiveService(IReceiptRepository receiptRepository, IUserRepository userRepository)
+        private readonly ILogger<ReceiveService> _logger;
+        public ReceiveService(IReceiptRepository receiptRepository, IUserRepository userRepository, ILogger<ReceiveService> logger)
         {
             _receiptRepository = receiptRepository;
             _userRepository = userRepository;
+            _logger = logger;
+            // This configuration sets up a bidirectional mapping between the Receiptsproduct and ReceiptItemDTO classes.
+            // and  Receipt and ReceiptDataDTO classes.
+            // and  Receipt and ReceiptDTO classes.
             _mapper = new MapperConfiguration(delegate (IMapperConfigurationExpression cfg)
             {
                 cfg.CreateMap<Receiptsproduct, ReceiptItemDTO>().ReverseMap();
@@ -28,7 +33,13 @@ namespace KA.Application.Services
 
         }
 
-
+        /// <summary>
+        /// Calculate the final price and the receipt details for shop
+        /// </summary>
+        /// <param name="basket">List of products in the basket</param>
+        /// <param name="discounts">All discounts in DB</param>
+        /// <param name="promotions">All promotion in BD</param>
+        /// <returns></returns>
         public async Task<ReceiptDataDTO?> CalculateReceipt(BasketDTO basket, List<DiscountDTO> discounts, List<PromotionDTO> promotions)
         {
             var receipt = new ReceiptDataDTO();
@@ -76,6 +87,14 @@ namespace KA.Application.Services
                  
         }
 
+        /// <summary>
+        /// Generate a receipt with all information necessary to show to the client
+        /// </summary>
+        /// <param name="username">username</param>
+        /// <param name="basket">list of products in basket </param>
+        /// <param name="discounts">all discount in DB</param>
+        /// <param name="promotions">all promotion in BD</param>
+        /// <returns></returns>
         public async Task<ReceiptDataDTO?> GenerateReceipt(string username, BasketDTO basket, List<DiscountDTO> discounts, List<PromotionDTO> promotions)
         {
             try
@@ -111,88 +130,82 @@ namespace KA.Application.Services
                             {
                                 return receipt;
                             }
+                            _logger.LogError($"Somethigs happen with add produts to receipt");
                             return null;
                         }
 
                     }
+                    _logger.LogError($"Username not found!");
                     return null;
                 }
+                _logger.LogError($"Error calculate receipt!");
                 return null;
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Erro generate receipt");
                 return null;
             }
         }
 
 
-
+        /// <summary>
+        /// Get all receipts that one user has 
+        /// </summary>
+        /// <param name="userName">username</param>
+        /// <returns>List with all receipts</returns>
         public async Task<List<ReceiptDataDTO>?> GetAllReceivesByUserId(string userName)
         {
             try
             {
-                var userIdresult = await _userRepository.GetUserAsync(userName);
+                var user = await _userRepository.GetUserAsync(userName);
 
-                if (userIdresult != null)
-                {
-                    var result = await _receiptRepository.GetAllReceiptsByUserAsync(userIdresult.UserId);
-                    var listOfResult = new List<ReceiptDataDTO>();
-                    foreach (var item in result)
-                    {
-
-                        var receipt = _mapper.Map<ReceiptDataDTO>(item);
-                        listOfResult.Add(receipt);
-                    }
-
-                    return listOfResult;
-                }
-                return null;
+                return user != null
+                    ? (await _receiptRepository.GetAllReceiptsByUserAsync(user.UserId))
+                        .Select(item => _mapper.Map<ReceiptDataDTO>(item))
+                        .ToList()
+                    : null;
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Erro generate get all receipt from user");
                 return null;
             }
         }
-
+        /// <summary>
+        /// Get all products from one receipt 
+        /// </summary>
+        /// <param name="receiptId">receipt id in DB</param>
+        /// <returns>List with all products</returns>
         public async Task<List<ReceiptItemDTO>> GetDetailsReceiptByReceiptId(int receiptId)
         {
             try
             {
                 var result = await _receiptRepository.GetAllDetailsByReceiptAsync(receiptId);
 
-                if (result != null)
-                {
-                    var listOfResult = new List<ReceiptItemDTO>();
-                    foreach (var item in result)
-                    {
-                        var receipt = _mapper.Map<ReceiptItemDTO>(item);
-                        listOfResult.Add(receipt);
-                    }
-
-                    return listOfResult;
-                }
-                return null;
+                return result?.Select(item => _mapper.Map<ReceiptItemDTO>(item)).ToList();
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Erro get products by receipt id");
                 return null;
             }
         }
-
+        /// <summary>
+        /// Get Details about one receipt
+        /// </summary>
+        /// <param name="receiptId">receipt id in DB</param>
+        /// <returns>Details for receipt</returns>
         public async Task<ReceiptDTO> GetReceiptByReceiptId(int receiptId)
         {
             try
             {
                 var result = await _receiptRepository.GetReceiptAsync(receiptId);
-
-                if (result != null)
-                {
-                    return _mapper.Map<ReceiptDTO>(result);
-                }
-                return null;
+                return result != null ? _mapper.Map<ReceiptDTO>(result) : null;
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Erro get details regarding a receipt id");
                 return null;
             }
         }

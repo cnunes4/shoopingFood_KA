@@ -16,7 +16,11 @@ namespace KA.Api1.Controllers
             _users = userService;
             _configuration= configuration;
         }
-
+        /// <summary>
+        /// Validate if user exist in DB and compare teh data inserted and data in DB
+        /// </summary>
+        /// <param name="userR">Data from frontend</param>
+        /// <returns></returns>
         [HttpPost("login")]
         public IActionResult Login([FromBody] UserDTO userR)
         {
@@ -25,6 +29,7 @@ namespace KA.Api1.Controllers
             {
                 return Unauthorized("Invalid credentials.");
             }
+            //Create a JWT token to authentication
             var token = AuthenticatedHelper.GenerateJwtToken(userR.Username, _configuration);
             return Ok(new { token });
         }

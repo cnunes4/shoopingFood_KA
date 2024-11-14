@@ -20,3 +20,4 @@ C:\CarlaNunes\GitHubKa\KA\KA.Domain\obj\Debug\net8.0\KA.Domain.dll
 C:\CarlaNunes\GitHubKa\KA\KA.Domain\obj\Debug\net8.0\refint\KA.Domain.dll
 C:\CarlaNunes\GitHubKa\KA\KA.Domain\obj\Debug\net8.0\KA.Domain.pdb
 C:\CarlaNunes\GitHubKa\KA\KA.Domain\obj\Debug\net8.0\ref\KA.Domain.dll
+C:\CarlaNunes\GitHubKa\KA\KA.Domain\obj\Debug\net8.0\KA.Domain.sourcelink.json

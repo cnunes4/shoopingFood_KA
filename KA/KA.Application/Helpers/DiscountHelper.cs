@@ -5,25 +5,28 @@ namespace KA.Application.Helpers
 {
     public static class DiscountHelper
     {
-        // Helper method to apply discounts to a single item
+        /// <summary>
+        /// Helper method to apply discounts to a single item
+        /// </summary>
+        /// <param name="item">Item in the basket</param>
+        /// <param name="discounts">List of discounts to apply</param>
+        /// <returns>Total price of discounts to apply</returns>
         public static decimal ApplyDiscounts(ProductDTO item, List<DiscountDTO> discounts)
         {
-            decimal totalDiscount = 0;
-            foreach (var discount in discounts.Where(x => x.ItemToApply == item.Id))
-            {
-                totalDiscount += CalculateDiscount(item.Price * item.Quantity, discount);
-            }
-            return totalDiscount;
+            return discounts
+                .Where(discount => discount.ItemToApply == item.Id)
+                .Sum(discount => CalculateDiscount(item.Price * item.Quantity, discount));
         }
- 
-        // Apply the discount to the total price
-        private static decimal CalculateDiscount(decimal priceTotal, DiscountDTO appliedDiscount)
-        {
-            decimal discountAmount = 0;
 
-            discountAmount = priceTotal * appliedDiscount.Percentage / 100;
-            priceTotal -= discountAmount;
-            return discountAmount;
+        /// <summary>
+        /// Calculate and return the discount amount
+        /// </summary>
+        /// <param name="totalPrice">Total price (price of product * quantity)</param>
+        /// <param name="discount">Discount to apply</param>
+        /// <returns>Total discounts to apply</returns>
+        private static decimal CalculateDiscount(decimal totalPrice, DiscountDTO discount)
+        {
+            return totalPrice * discount.Percentage / 100;
         }
     }
 }

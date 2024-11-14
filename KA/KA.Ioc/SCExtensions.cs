@@ -19,6 +19,7 @@ namespace KA.Ioc
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
+            //Add connection string for DB using MYSql
             services.AddDbContext<KADbContext>(options =>
             {
                 options.UseMySql(configuration.GetConnectionString("DefaultConnection"),
@@ -26,6 +27,7 @@ namespace KA.Ioc
                     b => b.MigrationsAssembly(typeof(KADbContext).Assembly.FullName));
             });
 
+            //JWT settings
             var jwtSettings = configuration.GetSection("JwtSettings");
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
@@ -69,7 +71,7 @@ namespace KA.Ioc
 
         public static IApplicationBuilder AddConfigurationInfrastructure(this IApplicationBuilder app, IServiceProvider services)
         {
-            //Populate DataBase
+            //Populate DB
             using (var scope = services.CreateScope())
             {
                 var servicesPro = scope.ServiceProvider;

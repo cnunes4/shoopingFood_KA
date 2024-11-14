@@ -56,9 +56,5 @@ namespace ShoopingFood.Controllers
 
             return View("Receipt", receipt);
         }
-
-
-    
-
     }
 }

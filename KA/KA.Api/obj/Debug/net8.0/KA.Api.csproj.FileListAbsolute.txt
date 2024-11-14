@@ -288,3 +288,7 @@ C:\CarlaNunes\GitHubKa\KA\KA.Api\obj\Debug\net8.0\refint\KA.Api.dll
 C:\CarlaNunes\GitHubKa\KA\KA.Api\obj\Debug\net8.0\KA.Api.pdb
 C:\CarlaNunes\GitHubKa\KA\KA.Api\obj\Debug\net8.0\KA.Api.genruntimeconfig.cache
 C:\CarlaNunes\GitHubKa\KA\KA.Api\obj\Debug\net8.0\ref\KA.Api.dll
+C:\CarlaNunes\GitHubKa\KA\KA.Api\obj\Debug\net8.0\KA.Api.sourcelink.json
+C:\CarlaNunes\GitHubKa\KA\KA.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\CarlaNunes\GitHubKa\KA\KA.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\CarlaNunes\GitHubKa\KA\KA.Api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
