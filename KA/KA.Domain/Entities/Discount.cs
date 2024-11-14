@@ -1,12 +1,21 @@
-﻿namespace KA.Domain.Entities;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace KA.Domain.Entities;
 
 public  class Discount
 {
-    public int Id { get; set; }
+    [Required]
+    public int DiscountId { get; set; }
 
-    public int ItemToApply { get; set; }
+    [Required]
+    [StringLength(100)]
+    public string Description { get; set; }
 
-    public string Description { get; set; } = null!;
-
+    [Required]
     public int Percentage { get; set; }
+
+    [Required]
+    public bool IsEnabled { get; set; }
+
+    public ICollection<DiscountProduct> DiscountProducts { get; set; }
 }

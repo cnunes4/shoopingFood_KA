@@ -16,15 +16,15 @@ namespace KA.Application.Helpers
         {
             decimal totalPromotionDiscount = 0;
             // Filters applicable promotions for the current item
-            var applicablePromotions = promotions.Where(p => p.ProductIdToApply == item.Id).ToList();
+            var applicablePromotions = promotions.Where(p => p.ProductIdToApply == item.IdProduct).ToList();
 
             foreach (var promotion in applicablePromotions)
             {
                 // Checks the quantity of the product in the basket
-                int totalPromotionProduct = productsBasket.FirstOrDefault(x => x.Id == promotion.ProductId)?.Quantity ?? 0;
+                int totalPromotionProduct = productsBasket.FirstOrDefault(x => x.IdProduct == promotion.ProductId)?.Quantity ?? 0;
 
                 // Calculates how many times the promotion can be applied
-                int applicableCount = totalPromotionProduct / promotion.QuantityProductId;
+                int applicableCount = totalPromotionProduct / promotion.Quantity;
 
                 // Applies the discount and accumulates the total promotion discount
                 if (applicableCount > 0)
@@ -51,7 +51,7 @@ namespace KA.Application.Helpers
             // Applies the discount based on the number of times the promotion is applied.
             for (int i = 0; i < numApplications; i++)
             {
-                totalDiscountAmount += unitPrice * promotion.Percentagem / 100;
+                totalDiscountAmount += unitPrice * promotion.Percentage / 100;
             }
 
             return totalDiscountAmount;

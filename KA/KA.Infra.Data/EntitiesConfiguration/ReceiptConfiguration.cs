@@ -8,7 +8,10 @@ namespace KA.Infra.Data.EntitiesConfiguration
     {
         public void Configure(EntityTypeBuilder<Receipt> builder)
         {
-            builder.HasKey(d => d.Id);
+            builder.HasKey(r => r.IdReceipt);
+            builder.Property(r => r.TotalBeforeDiscount).IsRequired();
+            builder.Property(r => r.TotalAfterDiscount).IsRequired();
+            builder.Property(r => r.ReceiptDate).IsRequired();
         }
     }
 }

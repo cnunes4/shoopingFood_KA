@@ -14,8 +14,8 @@ namespace ShoppingFood
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddHttpContextAccessor();  
-
+            services.AddHttpContextAccessor();
+            services.AddLogging();
             //COOKIE FO LOGIN
             services.AddAuthentication("KACookieAuthScheme")
             .AddCookie("KACookieAuthScheme");

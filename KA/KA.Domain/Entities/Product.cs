@@ -1,14 +1,18 @@
-﻿namespace KA.Domain.Entities;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace KA.Domain.Entities;
 
 public class Product
 {
-    public int Id { get; set; }
+    [Required]
+    public int IdProduct { get; set; }
 
-    public string Name { get; set; } 
+    [Required]
+    [StringLength(30, MinimumLength = 1)]
+    public string Name { get; set; }
 
+    [Required]
     public decimal Price { get; set; }
 
-    public int Quantity { get; set; }
-
-    public decimal PriceAfterDiscount { get; set; }
+    public ICollection<DiscountProduct> DiscountProducts { get; set; }
 }

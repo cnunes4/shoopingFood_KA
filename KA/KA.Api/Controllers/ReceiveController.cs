@@ -37,11 +37,9 @@ namespace KA.Api1.Controllers
             try
             {
                 var basket = new BasketDTO();
-                var discounts = await _discountService.GetAllDiscountsAsync();
-                var promotions = await _promotionService.GetAllPromotionsAsync();
                 foreach (var order in orderReceive.Order)
                 {
-                    var item = await _itemService.GetItemByIDAsync(order.ProductID);
+                    var item = await _itemService.GetProductByIDAsync(order.ProductID);
 
                     if (item != null && order.Quantity>0)
                     {
@@ -49,9 +47,8 @@ namespace KA.Api1.Controllers
                         basket.Products.Add(item);
                     }
                 }
-
                 // Generate the receipt
-                var receipt = await _receiveService.GenerateReceipt(User.Identity.Name, basket, discounts, promotions);
+                var receipt = await _receiveService.GenerateReceipt(User.Identity.Name, basket, _promotionService.GetAllPromotionsAsync().Result, _discountService.GetAllDiscountsAsync().Result);
 
                 return Ok(receipt);
             }

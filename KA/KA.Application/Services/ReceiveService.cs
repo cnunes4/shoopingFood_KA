@@ -7,6 +7,7 @@ using KA.Domain.Interfaces;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Xml.Linq;
 
 namespace KA.Application.Services
 {
@@ -16,17 +17,24 @@ namespace KA.Application.Services
         private readonly IUserRepository _userRepository;
         private readonly IMapper _mapper;
         private readonly ILogger<ReceiveService> _logger;
-        public ReceiveService(IReceiptRepository receiptRepository, IUserRepository userRepository, ILogger<ReceiveService> logger)
+        private readonly IDiscountService _discountService;
+        private readonly IPromotionService _promotionService;
+        private readonly IProductService _productService;
+        public ReceiveService(IReceiptRepository receiptRepository, IUserRepository userRepository, ILogger<ReceiveService> logger, 
+            IDiscountService discountService, IPromotionService promotionService, IProductService productService)
         {
             _receiptRepository = receiptRepository;
             _userRepository = userRepository;
             _logger = logger;
+            _discountService = discountService;
+            _promotionService = promotionService;
+            _productService = productService;
             // This configuration sets up a bidirectional mapping between the Receiptsproduct and ReceiptItemDTO classes.
             // and  Receipt and ReceiptDataDTO classes.
             // and  Receipt and ReceiptDTO classes.
             _mapper = new MapperConfiguration(delegate (IMapperConfigurationExpression cfg)
             {
-                cfg.CreateMap<Receiptsproduct, ReceiptItemDTO>().ReverseMap();
+                cfg.CreateMap<ReceiptProduct, ReceiptItemDTO>().ReverseMap();
                 cfg.CreateMap<Receipt, ReceiptDataDTO>().ReverseMap();
                 cfg.CreateMap<Receipt, ReceiptDTO>().ReverseMap();
             }).CreateMapper();
@@ -34,121 +42,153 @@ namespace KA.Application.Services
         }
 
         /// <summary>
-        /// Calculate the final price and the receipt details for shop
+        /// Calculate the final price and the receipt details for the shop.
         /// </summary>
-        /// <param name="basket">List of products in the basket</param>
-        /// <param name="discounts">All discounts in DB</param>
-        /// <param name="promotions">All promotion in BD</param>
-        /// <returns></returns>
-        public async Task<ReceiptDataDTO?> CalculateReceipt(BasketDTO basket, List<DiscountDTO> discounts, List<PromotionDTO> promotions)
+        /// <param name="basket">List of products in the basket.</param>
+        /// <returns>ReceiptDataDTO with calculated totals.</returns>
+        public async Task<ReceiptDataDTO?> CalculateReceiptAsync(BasketDTO basket, List<PromotionDTO> promotions, List<DiscountDTO> discounts)
         {
             var receipt = new ReceiptDataDTO();
             decimal totalBeforeDiscount = 0;
             decimal totalAfterDiscount = 0;
+
 
             // Apply discounts and promotions to each item and prepare the receipt
             foreach (var item in basket.Products)
             {
                 var receiptItem = new ReceiptItemDTO
                 {
-                    ProductId = item.Id,
-                    Name = item.Name,
-                    Price = item.Price ,
-                    Quantity = item.Quantity
+                    ProductId = item.IdProduct,
+                    Price = item.Price,
+                    Quantity = item.Quantity,
+                    Name = _productService.GetProductByIDAsync(item.IdProduct).Result.Name
                 };
 
                 decimal itemTotal = item.Price * item.Quantity;
                 totalBeforeDiscount += itemTotal;
 
                 // Apply discounts to the item
-                decimal totalDiscount = DiscountHelper.ApplyDiscounts(item, discounts);
+                decimal totalDiscount = (discounts != null ? DiscountHelper.ApplyDiscounts(item, discounts.Where(x=> x.ProductId== item.IdProduct).ToList()) : 0m);
 
                 // Apply promotions to the item
-                decimal totalPromotion = PromotionHelper.ApplyPromotions(promotions, item, basket.Products);
-
-                decimal totalAfterItemDiscount = itemTotal - totalDiscount - totalPromotion;
+                decimal totalPromotion = (promotions!= null ? PromotionHelper.ApplyPromotions(promotions, item, basket.Products) : 0m);
 
                 // Set values in the receipt item
-                receiptItem.TotalDiscount = totalDiscount + totalPromotion;
-                receiptItem.PriceAfterDiscount = totalAfterItemDiscount;
-                receiptItem.PriceBeforeDiscount = itemTotal;
-                // Add the item to the receipt
+                receiptItem.PriceAfterDiscount = itemTotal - totalDiscount - totalPromotion;
+                receiptItem.PriceBeforeDiscount = (item.Price* item.Quantity);
+                receiptItem.TotalDiscount = totalDiscount+ totalPromotion;
                 receipt.Items.Add(receiptItem);
             }
 
             // Calculate totals for the receipt
             totalAfterDiscount = receipt.Items.Sum(i => i.PriceAfterDiscount);
             receipt.TotalAfterDiscount = totalAfterDiscount;
-            receipt.TotalDiscount = receipt.Items.Sum(i => i.TotalDiscount);
             receipt.TotalBeforeDiscount = totalBeforeDiscount;
+            receipt.TotalDiscount = totalBeforeDiscount - totalAfterDiscount;
             receipt.ReceiptDate = DateTime.Now;
 
             return receipt;
-                 
         }
 
         /// <summary>
-        /// Generate a receipt with all information necessary to show to the client
+        /// Generate a receipt with all information necessary to show to the client.
         /// </summary>
         /// <param name="username">username</param>
-        /// <param name="basket">list of products in basket </param>
-        /// <param name="discounts">all discount in DB</param>
-        /// <param name="promotions">all promotion in BD</param>
-        /// <returns></returns>
-        public async Task<ReceiptDataDTO?> GenerateReceipt(string username, BasketDTO basket, List<DiscountDTO> discounts, List<PromotionDTO> promotions)
+        /// <param name="basket">list of products in basket</param>
+        /// <returns>ReceiptDataDTO with all calculated details or null in case of failure.</returns>
+        public async Task<ReceiptDataDTO?> GenerateReceipt(string userName, BasketDTO basket, List<PromotionDTO> promotions, List<DiscountDTO> discounts)
         {
             try
             {
-                var receipt= this.CalculateReceipt(basket,discounts,promotions).Result;
-                if (receipt!= null)
+                // Calculate the receipt asynchronously
+                var receipt = await CalculateReceiptAsync(basket, promotions, discounts);
+                if (receipt == null)
                 {
-                    var userIdresult = await _userRepository.GetUserAsync(username);
-
-                    if (userIdresult != null)
-                    {
-                        var receiptToSvae = new Receipt()
-                        {
-                            ReceiptDate = receipt.ReceiptDate,
-                            TotalAfterDiscount = receipt.TotalAfterDiscount,
-                            TotalBeforeDiscount = receipt.TotalBeforeDiscount,
-                            TotalDiscount = receipt.TotalDiscount,
-                            UserId = userIdresult.UserId
-                        };
-
-                        // Call the service to add a new receipt
-                        var result = await _receiptRepository.AddReceiptAsync(receiptToSvae);
-                        if (result > 0)
-                        {
-                            var listToAdd = new List<Receiptsproduct>();
-                            foreach (var item in receipt.Items)
-                            {
-                                listToAdd.Add(_mapper.Map<Receiptsproduct>(item));
-                            }
-                            var resultProducts = await _receiptRepository.AddAllProductsToReceiptAsync(listToAdd, result);
-
-                            if (resultProducts)
-                            {
-                                return receipt;
-                            }
-                            _logger.LogError($"Somethigs happen with add produts to receipt");
-                            return null;
-                        }
-
-                    }
-                    _logger.LogError($"Username not found!");
+                    _logger.LogError("Error calculating receipt.");
                     return null;
                 }
-                _logger.LogError($"Error calculate receipt!");
-                return null;
+
+                // Get the user asynchronously
+                var userIdResult = await _userRepository.GetUserAsync(userName);
+                if (userIdResult == null)
+                {
+                    _logger.LogError("Username not found!");
+                    return null;
+                }
+
+                // Create the receipt object to save
+                var receiptToSave = new Receipt
+                {
+                    ReceiptDate = receipt.ReceiptDate,
+                    TotalAfterDiscount = receipt.TotalAfterDiscount,
+                    TotalBeforeDiscount = receipt.TotalBeforeDiscount,
+                    UserId = userIdResult.UserId
+                };
+
+                // Add the receipt to the database
+                var receiptIdSaved = await _receiptRepository.AddReceiptAsync(receiptToSave);
+                if (receiptIdSaved <= 0)
+                {
+                    _logger.LogError("Failed to add receipt.");
+                    return null;
+                }
+
+                // Add products to receipt
+                var resultProducts = await _receiptRepository.AddAllProductsToReceiptAsync(
+                    receipt.Items.Select(item => _mapper.Map<ReceiptProduct>(item)).ToList(),
+                    receiptIdSaved);
+
+                if (!resultProducts)
+                {
+                    _logger.LogError("Failed to add products to receipt.");
+                    return null;
+                }
+
+                //// Fetch discounts and promotions concurrently
+                //var discountTasks = receipt.Items.Select(product => FetchAndAddDiscountsAsync(product, receiptIdSaved)).ToList();
+                //var promotionTasks = receipt.Items.Select(product => FetchAndAddPromotionsAsync(product, receiptIdSaved)).ToList();
+
+                // Execute all tasks concurrently
+               // await Task.WhenAll(discountTasks.Concat(promotionTasks));
+
+                // Return the receipt data
+                return receipt;
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Erro generate receipt");
+                _logger.LogError(ex, "Error generating receipt.");
                 return null;
             }
         }
 
+        private async Task FetchAndAddDiscountsAsync(ReceiptItemDTO product, int receiptIdSaved)
+        {
+            try
+            {
+                var discounts = await _discountService.GetDiscountsByProductIdAsync(product.ProductId);
+                var mappedDiscounts = discounts.Select(item => _mapper.Map<Discount>(item)).ToList();
+                await _receiptRepository.AddAllDiscountsToReceiptAsync(mappedDiscounts, product.ProductId, receiptIdSaved);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error adding discounts for product {product.ProductId}: {ex.Message}");
+            }
+        }
 
+        private async Task FetchAndAddPromotionsAsync(ReceiptItemDTO product, int receiptIdSaved)
+        {
+            try
+            {
+                var promotions = await _promotionService.GetAllPromotionsAsync();
+                var productPromotions = promotions.Where(x => x.ProductIdToApply == product.ProductId).ToList();
+                var mappedPromotions = productPromotions.Select(item => _mapper.Map<Promotion>(item)).ToList();
+                await _receiptRepository.AddAllPromotionsToReceiptAsync(mappedPromotions, product.ProductId, receiptIdSaved);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error adding promotions for product {product.ProductId}: {ex.Message}");
+            }
+        }
         /// <summary>
         /// Get all receipts that one user has 
         /// </summary>
@@ -160,11 +200,21 @@ namespace KA.Application.Services
             {
                 var user = await _userRepository.GetUserAsync(userName);
 
-                return user != null
-                    ? (await _receiptRepository.GetAllReceiptsByUserAsync(user.UserId))
-                        .Select(item => _mapper.Map<ReceiptDataDTO>(item))
-                        .ToList()
-                    : null;
+                if (user!= null)
+                {
+                    var items = await _receiptRepository.GetAllReceiptsByUserAsync(user.UserId);
+                    var listOfResult= new List<ReceiptDataDTO>();
+                    foreach (var item in items)
+                    {
+                        var receipt = _mapper.Map<ReceiptDataDTO>(item);
+                        receipt.TotalDiscount= receipt.TotalBeforeDiscount - receipt.TotalAfterDiscount;
+                        listOfResult.Add(receipt);
+                    }
+
+                    return listOfResult;
+                }
+                _logger.LogError("user not found");
+                return null;
             }
             catch (Exception ex)
             {
@@ -183,7 +233,17 @@ namespace KA.Application.Services
             {
                 var result = await _receiptRepository.GetAllDetailsByReceiptAsync(receiptId);
 
-                return result?.Select(item => _mapper.Map<ReceiptItemDTO>(item)).ToList();
+                var listOfResult = new List<ReceiptItemDTO>();
+                foreach (var item in result)
+                {
+                    var receipt = _mapper.Map<ReceiptItemDTO>(item);
+                    receipt.Name = _productService.GetProductByIDAsync(item.ProductId).Result?.Name;
+                    receipt.TotalDiscount = (item.Price* item.Quantity)-item.PriceAfterDiscount;
+                    receipt.PriceBeforeDiscount = (item.Price * item.Quantity);
+                    listOfResult.Add(receipt);
+                }
+
+                return listOfResult;
             }
             catch (Exception ex)
             {
@@ -201,7 +261,14 @@ namespace KA.Application.Services
             try
             {
                 var result = await _receiptRepository.GetReceiptAsync(receiptId);
-                return result != null ? _mapper.Map<ReceiptDTO>(result) : null;
+                if (result!= null)
+                {
+                    var item = _mapper.Map<ReceiptDTO>(result);
+                    item.TotalDiscount= item.TotalBeforeDiscount-item.TotalAfterDiscount;
+                    return item;
+                }
+                _logger.LogWarning($"no receipt for id {receiptId}");
+                return null;
             }
             catch (Exception ex)
             {

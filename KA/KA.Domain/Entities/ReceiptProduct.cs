@@ -1,20 +1,21 @@
-﻿namespace KA.Domain.Entities;
+﻿using System.ComponentModel.DataAnnotations;
 
-public class Receiptsproduct
+namespace KA.Domain.Entities;
+
+public class ReceiptProduct
 {
+    [Required]
     public int ReceiptId { get; set; }
 
+    [Required]
     public int ProductId { get; set; }
 
-    public int Id { get; set; }
-
-    public string Name { get; set; } = null!;
-
+    [Required]
     public decimal Price { get; set; }
 
+    [Required]
     public int Quantity { get; set; }
 
+    [Required]
     public decimal PriceAfterDiscount { get; set; }
-
-    public decimal TotalDiscount { get; set; }
 }

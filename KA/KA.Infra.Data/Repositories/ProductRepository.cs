@@ -28,7 +28,7 @@ namespace KA.Infra.Data.Repositories
 
             if (items == null || !items.Any())
             {
-                _logger.LogError($"No Products found");
+                _logger.LogWarning($"No Products found");
                 return null;
             }
 
@@ -38,11 +38,11 @@ namespace KA.Infra.Data.Repositories
         /// <summary>
         /// Get on product form DB by product id
         /// </summary>
-        /// <param name="id">product id</param>
+        /// <param name="productId">product id</param>
         /// <returns>One product if exist </returns>
-        public async Task<Product> GetItemByIDAsync(int id)
+        public async Task<Product> GetProductByIDAsync(int productId)
         {
-            return await _context.Products.FirstOrDefaultAsync(x => x.Id == id);
+            return await _context.Products.FirstOrDefaultAsync(x => x.IdProduct == productId);
         }
 
 

@@ -8,7 +8,13 @@ namespace KA.Infra.Data.EntitiesConfiguration
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
-            builder.HasKey(d => d.UserId);
+            builder.HasKey(e => e.UserId);
+            builder.Property(e => e.Username)
+                  .IsRequired()
+                  .HasMaxLength(16);
+
+            builder.Property(e => e.Password)
+                  .IsRequired();
         }
     }
 }

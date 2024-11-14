@@ -5,7 +5,6 @@ namespace KA.Domain.Interfaces
     public interface IProductRepository
     {
         Task<List<Product>?> GetAllProductsAsync();
-
-        Task<Product> GetItemByIDAsync(int id);
+        Task<Product> GetProductByIDAsync(int productId);
     }
 }

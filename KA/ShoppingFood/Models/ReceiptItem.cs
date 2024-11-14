@@ -8,5 +8,7 @@
         public decimal PriceAfterDiscount { get; set; }
         public decimal TotalDiscount { get; set; }
         public decimal PriceBeforeDiscount { get; set; }
+
+
     }
 }

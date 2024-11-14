@@ -5,6 +5,7 @@ namespace KA.Domain.Interfaces
     public interface IDiscountRepository
     {
         Task<List<Discount>?> GetAllDiscountsAsync();
-        Task<List<Discount>?> GetDiscountsByProductIdAsync(int id);
+        Task<List<Discount>?> GetDiscountsByProductIdAsync(int productId);
+        Task<List<DiscountProduct>?> GetDiscountsForEachProductAsync();
     }
 }

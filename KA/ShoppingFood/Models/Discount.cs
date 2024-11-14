@@ -2,9 +2,7 @@
 {
     public class Discount
     {
-        public int Id { get; set; }
-
-        public int ItemToApply { get; set; }
+        public int DiscountId { get; set; }
 
         public string Description { get; set; } = null!;
 

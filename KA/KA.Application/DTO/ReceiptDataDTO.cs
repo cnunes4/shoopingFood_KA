@@ -1,8 +1,10 @@
-﻿namespace KA.Application.DTO
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace KA.Application.DTO
 {
     public class ReceiptDataDTO
     {
-        public int Id { get; set; }
+        public int IdReceipt { get; set; }
         public int UserId { get; set; }
         public decimal TotalBeforeDiscount { get; set; }
         public decimal TotalDiscount { get; set; }

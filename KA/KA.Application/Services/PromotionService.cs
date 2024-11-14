@@ -35,7 +35,7 @@ namespace KA.Application.Services
 
             if (items == null || !items.Any())
             {
-                _logger.LogError($"No Promotions found");
+                _logger.LogWarning($"No Promotions found");
                 return null;
             }
 

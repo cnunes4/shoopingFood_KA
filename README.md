@@ -1,6 +1,5 @@
 # Shooping Food
 
-
 How to Run an Shooping Food Application
 
 Introduction
@@ -60,16 +59,21 @@ Press F5 to run in Debug mode or Ctrl + F5 to run without debugging.
 Accessing the Application
 
 Once the application is running, you can access it by navigating to:
-http://localhost:5147/
+http://localhost:5147/ -> Web Application
 
+You can do login with following users:
+username=kantar
+password=kantar_pass
 
+username=carla
+password=carla_pass
 
 
 Testing the Application
 
 Use Postman or Swagger UI (if configured) to test API endpoints.
 Swagger, if set up, can be accessed at:
-http://localhost:5019/
+http://localhost:5019/ -> API Application
 
 
 

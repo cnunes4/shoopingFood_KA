@@ -9,9 +9,10 @@
     <h2 class="my-4">Food Items</h2>
 
 
-  
 
 
+    @if (Model != null && Model.Promotions != null && Model.Promotions.Count > 0)
+{
 <div class="promotions">
     <h5>Promotions</h5>
     <ul class="list-group">
@@ -21,8 +22,9 @@
         }
     </ul>
 </div>
+}
 
-     @if (Model != null && Model.FoodAvailable.Count > 0)
+    @if (Model != null &&  Model.FoodAvailable != null && Model.FoodAvailable.Count > 0)
     {
         <form method="post" action="@Url.Action("SubmitOrder", "Food")">
             <div class="row">
@@ -42,8 +44,8 @@
                                     }
                                 }
                                 <div class="form-group">
-                                    <label for="quantity_@item.Id">Quantity</label>
-                                    <input type="number" id="quantity_@item.Id" name="Quantities[@item.Id]" class="form-control" value="0" min="0">
+                                    <label for="quantity_@item.IdProduct">Quantity</label>
+                                    <input type="number" id="quantity_@item.IdProduct" name="Quantities[@item.IdProduct]" class="form-control" value="0" min="0">
                                 </div>
                             </div>
                         </div>

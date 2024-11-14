@@ -15,6 +15,7 @@ namespace KA.Api1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddLogging();
             services.AddInfrastructureSwagger(_configuration);
             services.AddInfrastructure(_configuration);
 

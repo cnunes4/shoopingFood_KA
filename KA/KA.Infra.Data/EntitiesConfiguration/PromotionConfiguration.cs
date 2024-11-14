@@ -8,7 +8,16 @@ namespace KA.Infra.Data.EntitiesConfiguration
     {
         public void Configure(EntityTypeBuilder<Promotion> builder)
         {
-            builder.HasKey(d => d.Id);
+            builder.HasKey(p => p.IdPromotion);
+            builder.Property(p => p.Description)
+                  .IsRequired()
+                  .HasMaxLength(150);
+            builder.Property(p => p.ProductIdToApply).IsRequired();
+            builder.Property(p => p.ProductId).IsRequired();
+            builder.Property(p => p.Quantity).IsRequired();
+            builder.Property(p => p.Percentage).IsRequired();
+            builder.Property(p => p.DateStart).IsRequired();
+            builder.Property(p => p.DateEnd).IsRequired();
         }
     }
 }

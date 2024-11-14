@@ -27,7 +27,7 @@ namespace KA.Infra.Data.Repositories
 
             if (items == null || !items.Any())
             {
-                _logger.LogError($"No Receipts found");
+                _logger.LogWarning($"No Receipts found");
                 return null;
             }
 
@@ -48,7 +48,7 @@ namespace KA.Infra.Data.Repositories
 
             if (rowsAffected > 0)
             {
-                return receipt.Id;
+                return receipt.IdReceipt;
             }
             else
             {
@@ -63,22 +63,20 @@ namespace KA.Infra.Data.Repositories
         /// <param name="porducts"></param>
         /// <param name="receiptId"></param>
         /// <returns></returns>
-        public async Task<bool> AddAllProductsToReceiptAsync(List<Receiptsproduct> products, int receiptId)
+        public async Task<bool> AddAllProductsToReceiptAsync(List<ReceiptProduct> products, int receiptId)
         {
             try
             {
-                var receiptProducts = products.Select(item => new Receiptsproduct
+                var receiptProducts = products.Select(item => new ReceiptProduct
                 {
-                    Name = item.Name,
                     Price = item.Price,
                     PriceAfterDiscount = item.PriceAfterDiscount,
-                    TotalDiscount = item.TotalDiscount,
                     Quantity = item.Quantity,
                     ReceiptId = receiptId,
                     ProductId = item.ProductId,
                 }).ToList();
 
-                _context.Receiptsproducts.AddRange(receiptProducts);
+                _context.ReceiptProducts.AddRange(receiptProducts);
                 int rowsAffected = await _context.SaveChangesAsync();
 
                 return rowsAffected > 0;
@@ -102,7 +100,7 @@ namespace KA.Infra.Data.Repositories
 
             if (items == null || !items.Any())
             {
-                _logger.LogError($"No Receipts found for user {idUser}");
+                _logger.LogWarning($"No Receipts found for user {idUser}");
                 return null;
             }
             return items;
@@ -113,13 +111,13 @@ namespace KA.Infra.Data.Repositories
         /// </summary>
         /// <param name="idReceipt">receipt id </param>
         /// <returns>List of all product for one receipt</returns>
-        public async Task<List<Receiptsproduct>?> GetAllDetailsByReceiptAsync(int idReceipt)
+        public async Task<List<ReceiptProduct>?> GetAllDetailsByReceiptAsync(int idReceipt)
         {
-            var items = await _context.Receiptsproducts.Where(x => x.ReceiptId == idReceipt).ToListAsync();
+            var items = await _context.ReceiptProducts.Where(x => x.ReceiptId == idReceipt).ToListAsync();
 
             if (items == null || !items.Any())
             {
-                _logger.LogError($"No products found for receipt {idReceipt}");
+                _logger.LogWarning($"No products found for receipt {idReceipt}");
                 return null;
             }
             return items;
@@ -132,14 +130,62 @@ namespace KA.Infra.Data.Repositories
         /// <returns>All details about receipt</returns>
         public async Task<Receipt> GetReceiptAsync(int idReceipt)
         {
-            var item = await _context.Receipts.Where(x => x.Id == idReceipt).FirstOrDefaultAsync();
+            var item = await _context.Receipts.Where(x => x.IdReceipt == idReceipt).FirstOrDefaultAsync();
 
             if (item == null)
             {
-                _logger.LogError($"No Receipt found for receipt {idReceipt}");
+                _logger.LogWarning($"No Receipt found for receipt {idReceipt}");
                 return null;
             }
             return item;
+        }
+
+
+        public async Task<bool> AddAllDiscountsToReceiptAsync(List<Discount> discounts, int receiptId, int productId)
+        {
+            try
+            {
+                var receiptProductsDiscounts = discounts.Select(item => new ReceiptProductDiscount
+                {
+                    DiscountId= item.DiscountId, 
+                    ProductId= productId, 
+                    ReceiptId= receiptId
+                }).ToList();
+
+                _context.ReceiptProductDiscounts.AddRange(receiptProductsDiscounts);
+                int rowsAffected = await _context.SaveChangesAsync();
+
+                return rowsAffected > 0;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro insert all discounts in DB for one receipt");
+                return false;
+            }
+        }
+
+
+        public async Task<bool> AddAllPromotionsToReceiptAsync(List<Promotion> promotions, int receiptId, int productId)
+        {
+            try
+            {
+                var receiptProductsPromotions = promotions.Select(item => new ReceiptProductPromotion
+                {
+                    PromotionId = item.IdPromotion,
+                    ProductId = productId,
+                    ReceiptId = receiptId
+                }).ToList();
+
+                _context.ReceiptProductPromotions.AddRange(receiptProductsPromotions);
+                int rowsAffected = await _context.SaveChangesAsync();
+
+                return rowsAffected > 0;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro insert all discounts in DB for one receipt");
+                return false;
+            }
         }
 
     }

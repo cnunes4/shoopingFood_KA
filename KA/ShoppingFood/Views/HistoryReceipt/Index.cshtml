@@ -25,7 +25,7 @@
                             <td><span id="totalPrice">@receipt.TotalAfterDiscount.ToString("0.00")</span>  €</td>
                             <td><span id="totalPrice">@receipt.TotalDiscount.ToString("0.00")</span> €</td>
                             <td class="btnViewDetails">
-                                <a class="btn btn-primary" href="@Url.Action("GetDetails", "HistoryReceipt", new { receiptId = receipt.Id })">View Details</a>
+                            <a class="btn btn-primary" href="@Url.Action("GetDetails", "HistoryReceipt", new { receiptId = receipt.IdReceipt })">View Details</a>
                             </td>
                     </tr>
                 }

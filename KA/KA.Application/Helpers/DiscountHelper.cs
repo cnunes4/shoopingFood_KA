@@ -14,7 +14,6 @@ namespace KA.Application.Helpers
         public static decimal ApplyDiscounts(ProductDTO item, List<DiscountDTO> discounts)
         {
             return discounts
-                .Where(discount => discount.ItemToApply == item.Id)
                 .Sum(discount => CalculateDiscount(item.Price * item.Quantity, discount));
         }
 

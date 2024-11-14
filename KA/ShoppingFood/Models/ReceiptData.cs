@@ -3,7 +3,8 @@ namespace ShoopingFood.Models
 {
     public class ReceiptData
     {
-        public int Id { get; set; }
+
+        public int IdReceipt { get; set; }
         public int UserId { get; set; }
         public decimal TotalBeforeDiscount { get; set; }
         public decimal TotalDiscount { get; set; }

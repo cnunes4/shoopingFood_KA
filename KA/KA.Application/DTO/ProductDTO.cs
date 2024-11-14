@@ -1,8 +1,10 @@
-﻿namespace KA.Application.DTO
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace KA.Application.DTO
 {
     public class ProductDTO
     {
-        public int Id { get; set; }
+        public int IdProduct { get; set; }
 
         public string Name { get; set; } = null!;
 
@@ -13,5 +15,6 @@
         public decimal PriceAfterDiscount { get; set; }
 
         public List<DiscountDTO> Discounts { get; set; }
+
     }
 }

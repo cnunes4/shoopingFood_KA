@@ -1,10 +1,13 @@
-﻿namespace KA.Domain.Entities;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace KA.Domain.Entities;
 
 public class User
 {
-    public string Username { get; set; } = null!;
-
     public int UserId { get; set; }
-
-    public string Password { get; set; } = null!;
+    [Required]
+    [StringLength(16, MinimumLength = 4)]
+    public string Username { get; set; }
+    [Required]
+    public string Password { get; set; }
 }

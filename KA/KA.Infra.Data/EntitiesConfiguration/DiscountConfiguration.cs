@@ -8,7 +8,15 @@ namespace KA.Infra.Data.EntitiesConfiguration
     {
         public void Configure(EntityTypeBuilder<Discount> builder)
         {
-            builder.HasKey(d => d.Id);
+            builder.HasKey(e => e.DiscountId);
+            builder.Property(e => e.Description)
+                  .IsRequired()
+                  .HasMaxLength(100);
+            builder.Property(e => e.Percentage)
+                  .IsRequired();
+            builder.Property(e => e.IsEnabled)
+                .IsRequired();
+
         }
     }
 }

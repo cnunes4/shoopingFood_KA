@@ -11,17 +11,17 @@ namespace KA.Infra.Data.Context
         {
         }
 
+        public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Discount> Discounts { get; set; }
-
         public virtual DbSet<Product> Products { get; set; }
+        public virtual DbSet<DiscountProduct> DiscountsProducts { get; set; }
 
         public virtual DbSet<Promotion> Promotions { get; set; }
-
         public virtual DbSet<Receipt> Receipts { get; set; }
+        public virtual DbSet<ReceiptProduct> ReceiptProducts { get; set; }
+        public virtual DbSet<ReceiptProductDiscount> ReceiptProductDiscounts { get; set; }
+        public virtual DbSet<ReceiptProductPromotion> ReceiptProductPromotions { get; set; }
 
-        public virtual DbSet<Receiptsproduct> Receiptsproducts { get; set; }
-
-        public virtual DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

@@ -26,7 +26,7 @@ namespace KA.Infra.Data.Repositories
 
             if (items == null || !items.Any())
             {
-                _logger.LogError($"No Discounts found");
+                _logger.LogWarning($"No Discounts found");
                 return null;
             }
 
@@ -37,22 +37,42 @@ namespace KA.Infra.Data.Repositories
         /// <summary>
         /// Get discounts for on product id
         /// </summary>
-        /// <param name="id">product id in DB</param>
+        /// <param name="productId">product id in DB</param>
         /// <returns>List with all discounts for this prodcut id </returns>
-        public async Task<List<Discount>?> GetDiscountsByProductIdAsync(int id)
+        public async Task<List<Discount>?> GetDiscountsByProductIdAsync(int productId)
         {
-            var items = await _context.Discounts.Where(x=> x.ItemToApply==id).ToListAsync();
+            var discounts = await _context.Discounts
+                .Where(d => _context.DiscountsProducts
+                    .Any(dp => dp.ProductId == productId && dp.DiscountId == d.DiscountId) && d.IsEnabled)
+                .ToListAsync();
 
-            if (items == null || !items.Any())
+            if (discounts == null || !discounts.Any())
             {
-                _logger.LogError($"No Discounts for this product {id} found");
+                _logger.LogWarning($"No Discounts for product with ID {productId} found");
                 return null;
             }
 
-            return items;
+            return discounts;
+
         }
 
+        /// <summary>
+        /// Get all discounts for all products
+        /// </summary>
+        /// <returns>List with all discounts </returns>
+        public async Task<List<DiscountProduct>?> GetDiscountsForEachProductAsync()
+        {
+            var discounts = await _context.DiscountsProducts.ToListAsync();
 
-        
+            if (discounts == null || !discounts.Any())
+            {
+                _logger.LogWarning($"No Discounts");
+                return null;
+            }
+
+            return discounts;
+
+        }
+
     }
 }

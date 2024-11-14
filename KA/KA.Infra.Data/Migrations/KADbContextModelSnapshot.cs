@@ -24,67 +24,88 @@ namespace KA.Infra.Data.Migrations
 
             modelBuilder.Entity("KA.Domain.Entities.Discount", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("DiscountId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("DiscountId"));
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
 
-                    b.Property<int>("ItemToApply")
-                        .HasColumnType("int");
+                    b.Property<bool>("IsEnabled")
+                        .HasColumnType("tinyint(1)");
 
                     b.Property<int>("Percentage")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.HasKey("DiscountId");
 
                     b.ToTable("Discounts");
                 });
 
+            modelBuilder.Entity("KA.Domain.Entities.DiscountProduct", b =>
+                {
+                    b.Property<int>("DiscountId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("DiscountId", "ProductId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("DiscountsProducts");
+                });
+
             modelBuilder.Entity("KA.Domain.Entities.Product", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdProduct")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("IdProduct"));
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(30)
+                        .HasColumnType("varchar(30)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(65,30)");
 
-                    b.Property<decimal>("PriceAfterDiscount")
-                        .HasColumnType("decimal(65,30)");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
+                    b.HasKey("IdProduct");
 
                     b.ToTable("Products");
                 });
 
             modelBuilder.Entity("KA.Domain.Entities.Promotion", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdPromotion")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("IdPromotion"));
+
+                    b.Property<DateTime>("DateEnd")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime>("DateStart")
+                        .HasColumnType("datetime(6)");
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(150)
+                        .HasColumnType("varchar(150)");
 
-                    b.Property<decimal>("Percentagem")
-                        .HasColumnType("decimal(65,30)");
+                    b.Property<bool>("IsEnabled")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<int>("Percentage")
+                        .HasColumnType("int");
 
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
@@ -92,21 +113,21 @@ namespace KA.Infra.Data.Migrations
                     b.Property<int>("ProductIdToApply")
                         .HasColumnType("int");
 
-                    b.Property<int>("QuantityProductId")
+                    b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.HasKey("IdPromotion");
 
                     b.ToTable("Promotions");
                 });
 
             modelBuilder.Entity("KA.Domain.Entities.Receipt", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdReceipt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("IdReceipt"));
 
                     b.Property<DateTime>("ReceiptDate")
                         .HasColumnType("datetime(6)");
@@ -117,31 +138,21 @@ namespace KA.Infra.Data.Migrations
                     b.Property<decimal>("TotalBeforeDiscount")
                         .HasColumnType("decimal(65,30)");
 
-                    b.Property<decimal>("TotalDiscount")
-                        .HasColumnType("decimal(65,30)");
-
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.HasKey("IdReceipt");
 
                     b.ToTable("Receipts");
                 });
 
-            modelBuilder.Entity("KA.Domain.Entities.Receiptsproduct", b =>
+            modelBuilder.Entity("KA.Domain.Entities.ReceiptProduct", b =>
                 {
                     b.Property<int>("ReceiptId")
                         .HasColumnType("int");
 
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
-
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("longtext");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(65,30)");
@@ -152,12 +163,45 @@ namespace KA.Infra.Data.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<decimal>("TotalDiscount")
-                        .HasColumnType("decimal(65,30)");
-
                     b.HasKey("ReceiptId", "ProductId");
 
-                    b.ToTable("Receiptsproducts");
+                    b.ToTable("ReceiptProducts");
+                });
+
+            modelBuilder.Entity("KA.Domain.Entities.ReceiptProductDiscount", b =>
+                {
+                    b.Property<int>("ReceiptId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DiscountId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ReceiptId", "ProductId", "DiscountId");
+
+                    b.HasIndex("DiscountId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ReceiptProductDiscounts");
+                });
+
+            modelBuilder.Entity("KA.Domain.Entities.ReceiptProductPromotion", b =>
+                {
+                    b.Property<int>("ReceiptId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PromotionId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ReceiptId", "ProductId", "PromotionId");
+
+                    b.ToTable("ReceiptProductPromotions");
                 });
 
             modelBuilder.Entity("KA.Domain.Entities.User", b =>
@@ -174,11 +218,60 @@ namespace KA.Infra.Data.Migrations
 
                     b.Property<string>("Username")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(16)
+                        .HasColumnType("varchar(16)");
 
                     b.HasKey("UserId");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("KA.Domain.Entities.DiscountProduct", b =>
+                {
+                    b.HasOne("KA.Domain.Entities.Discount", "Discount")
+                        .WithMany("DiscountProducts")
+                        .HasForeignKey("DiscountId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("KA.Domain.Entities.Product", "Product")
+                        .WithMany("DiscountProducts")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Discount");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("KA.Domain.Entities.ReceiptProductDiscount", b =>
+                {
+                    b.HasOne("KA.Domain.Entities.Discount", "Discount")
+                        .WithMany()
+                        .HasForeignKey("DiscountId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("KA.Domain.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Discount");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("KA.Domain.Entities.Discount", b =>
+                {
+                    b.Navigation("DiscountProducts");
+                });
+
+            modelBuilder.Entity("KA.Domain.Entities.Product", b =>
+                {
+                    b.Navigation("DiscountProducts");
                 });
 #pragma warning restore 612, 618
         }

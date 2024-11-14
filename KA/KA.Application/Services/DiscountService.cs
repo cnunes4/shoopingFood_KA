@@ -32,15 +32,28 @@ namespace KA.Application.Services
         public async Task<List<DiscountDTO>?> GetAllDiscountsAsync()
         {
             var items = await _discountRepository.GetAllDiscountsAsync();
+            var discountProducts = await _discountRepository.GetDiscountsForEachProductAsync();
+
+            var listToReturn = items
+                .SelectMany(item => discountProducts
+                    .Where(product => product.DiscountId == item.DiscountId)
+                    .Select(product =>
+                    {
+                        var discount = _mapper.Map<DiscountDTO>(item);
+                        discount.ProductId = product.ProductId;
+                        return discount;
+                    }))
+                .ToList();
+
 
             if (items == null || !items.Any())
             {
-                _logger.LogError($"No Discounts found");
+                _logger.LogWarning($"No Discounts found");
                 return null;
             }
 
 
-            return items.Select(item => _mapper.Map<DiscountDTO>(item)).ToList();
+            return listToReturn;
         }
 
         /// <summary>
@@ -54,10 +67,17 @@ namespace KA.Application.Services
 
             if (items == null || !items.Any())
             {
-                _logger.LogError($"No Discounts found o this product {id}");
+                _logger.LogWarning($"No Discounts found o this product {id}");
                 return null;
             }
-            return items.Select(item => _mapper.Map<DiscountDTO>(item)).ToList(); ;
+            var itensToReturn= new List<DiscountDTO>();
+            foreach (var item in items)
+            {
+                var discount = _mapper.Map<DiscountDTO>(item);
+                discount.ProductId = id;
+                itensToReturn.Add(discount);
+            }
+            return itensToReturn;
         }
     }
 }

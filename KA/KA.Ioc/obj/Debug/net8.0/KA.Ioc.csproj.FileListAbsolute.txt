@@ -37,3 +37,5 @@ C:\CarlaNunes\GitHubKa\KA\KA.Ioc\obj\Debug\net8.0\refint\KA.Ioc.dll
 C:\CarlaNunes\GitHubKa\KA\KA.Ioc\obj\Debug\net8.0\KA.Ioc.pdb
 C:\CarlaNunes\GitHubKa\KA\KA.Ioc\obj\Debug\net8.0\ref\KA.Ioc.dll
 C:\CarlaNunes\GitHubKa\KA\KA.Ioc\obj\Debug\net8.0\KA.Ioc.sourcelink.json
+C:\CarlaNunes\GitHubKa\KA\KA.Ioc\bin\Debug\net8.0\KA.Ioc.runtimeconfig.json
+C:\CarlaNunes\GitHubKa\KA\KA.Ioc\obj\Debug\net8.0\KA.Ioc.genruntimeconfig.cache

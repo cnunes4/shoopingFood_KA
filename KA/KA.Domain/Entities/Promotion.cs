@@ -1,16 +1,34 @@
-﻿namespace KA.Domain.Entities;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace KA.Domain.Entities;
 
 public  class Promotion
 {
-    public int Id { get; set; }
+    [Required]
+    public int IdPromotion { get; set; }
 
-    public string Description { get; set; } = null!;
+    [Required]
+    [StringLength(150, MinimumLength = 1)]
+    public string Description { get; set; }
 
+    [Required]
     public int ProductIdToApply { get; set; }
 
+    [Required]
     public int ProductId { get; set; }
 
-    public int QuantityProductId { get; set; }
+    [Required]
+    public int Quantity { get; set; }
 
-    public decimal Percentagem { get; set; }
+    [Required]
+    public int Percentage { get; set; }
+
+    [Required]
+    public DateTime DateStart { get; set; }
+
+    [Required]
+    public DateTime DateEnd { get; set; }
+
+    [Required]
+    public bool IsEnabled { get; set; }
 }

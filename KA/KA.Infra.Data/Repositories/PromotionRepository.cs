@@ -22,11 +22,11 @@ namespace KA.Infra.Data.Repositories
         /// <returns>List of promotions</returns>
         public async Task<List<Promotion>?> GetAllPromotionsAsync()
         {
-             var items = await _context.Promotions.ToListAsync();
+             var items = await _context.Promotions.Where(x=> x.IsEnabled).ToListAsync();
 
             if (items == null || !items.Any())
             {
-                _logger.LogError($"No Promotions found");
+                _logger.LogWarning($"No Promotions found");
                 return null;
             }
 

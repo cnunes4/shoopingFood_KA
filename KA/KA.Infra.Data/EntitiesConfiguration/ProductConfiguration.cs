@@ -8,7 +8,12 @@ namespace KA.Infra.Data.EntitiesConfiguration
     {
         public void Configure(EntityTypeBuilder<Product> builder)
         {
-            builder.HasKey(d => d.Id);
+            builder.HasKey(e => e.IdProduct);
+            builder.Property(e => e.Name)
+                  .IsRequired()
+                  .HasMaxLength(30);
+            builder.Property(e => e.Price)
+                  .IsRequired();
         }
     }
 }
