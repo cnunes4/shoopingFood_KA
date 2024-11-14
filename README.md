@@ -62,10 +62,14 @@ Once the application is running, you can access it by navigating to:
 http://localhost:5147/ -> Web Application
 
 You can do login with following users:
+
 username=kantar
+
 password=kantar_pass
 
+
 username=carla
+
 password=carla_pass
 
 
