@@ -2,9 +2,15 @@
 
 How to Run an Shooping Food Application
 
+
+
+
 Introduction
 
 This README provides step-by-step instructions for setting up and running an MVC Shooping Food application. It outlines the necessary prerequisites, configuration steps, and commands to help you successfully launch and test the application.
+
+
+
 
 
 
@@ -19,12 +25,18 @@ MY SQL Server
 
 
 
+
+
+
 Cloning the Repository
 
 Clone the repository to your local development environment using the following command:
 
 git clone https://github.com/cnunes4/shoopingFood.git
 cd KAApi
+
+
+
 
 
 
@@ -44,6 +56,10 @@ Apply database migrations to set up the schema:
 dotnet ef database update
 
 
+
+
+
+
 Running the Application
 
 To run the application, use the following command:
@@ -56,17 +72,27 @@ Press F5 to run in Debug mode or Ctrl + F5 to run without debugging.
 
 
 
+
+
+
 Accessing the Application
 
 Once the application is running, you can access it by navigating to:
 http://localhost:5147/ -> Web Application
 
 You can do login with following users:
+
 username=kantar
+
 password=kantar_pass
 
+
 username=carla
+
 password=carla_pass
+
+
+
 
 
 Testing the Application
@@ -74,6 +100,9 @@ Testing the Application
 Use Postman or Swagger UI (if configured) to test API endpoints.
 Swagger, if set up, can be accessed at:
 http://localhost:5019/ -> API Application
+
+
+
 
 
 
