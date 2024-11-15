@@ -32,7 +32,7 @@ Cloning the Repository
 
 Clone the repository to your local development environment using the following command:
 
-git clone https://github.com/cnunes4/shoopingFood.git
+git clone https://github.com/cnunes4/shoopingFood_KA.git
 cd KAApi
 
 
