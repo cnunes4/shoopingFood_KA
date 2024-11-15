@@ -144,13 +144,6 @@ namespace KA.Application.Services
                     return null;
                 }
 
-                //// Fetch discounts and promotions concurrently
-                //var discountTasks = receipt.Items.Select(product => FetchAndAddDiscountsAsync(product, receiptIdSaved)).ToList();
-                //var promotionTasks = receipt.Items.Select(product => FetchAndAddPromotionsAsync(product, receiptIdSaved)).ToList();
-
-                // Execute all tasks concurrently
-               // await Task.WhenAll(discountTasks.Concat(promotionTasks));
-
                 // Return the receipt data
                 return receipt;
             }
@@ -161,34 +154,6 @@ namespace KA.Application.Services
             }
         }
 
-        private async Task FetchAndAddDiscountsAsync(ReceiptItemDTO product, int receiptIdSaved)
-        {
-            try
-            {
-                var discounts = await _discountService.GetDiscountsByProductIdAsync(product.ProductId);
-                var mappedDiscounts = discounts.Select(item => _mapper.Map<Discount>(item)).ToList();
-                await _receiptRepository.AddAllDiscountsToReceiptAsync(mappedDiscounts, product.ProductId, receiptIdSaved);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Error adding discounts for product {product.ProductId}: {ex.Message}");
-            }
-        }
-
-        private async Task FetchAndAddPromotionsAsync(ReceiptItemDTO product, int receiptIdSaved)
-        {
-            try
-            {
-                var promotions = await _promotionService.GetAllPromotionsAsync();
-                var productPromotions = promotions.Where(x => x.ProductIdToApply == product.ProductId).ToList();
-                var mappedPromotions = productPromotions.Select(item => _mapper.Map<Promotion>(item)).ToList();
-                await _receiptRepository.AddAllPromotionsToReceiptAsync(mappedPromotions, product.ProductId, receiptIdSaved);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Error adding promotions for product {product.ProductId}: {ex.Message}");
-            }
-        }
         /// <summary>
         /// Get all receipts that one user has 
         /// </summary>
